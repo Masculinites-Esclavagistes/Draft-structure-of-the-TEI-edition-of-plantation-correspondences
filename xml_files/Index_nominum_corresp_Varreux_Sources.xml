@@ -219,6 +219,13 @@
                <person xml:id="pers_demery_1">
                   <persName>Monsieur Demery</persName>
                </person>
+               <person xml:id="pers_oge_1">
+                  <persName ref="wikidata:Q3559780">Vincent ogé</persName>
+               </person>
+               <person xml:id="pers_mosneron_1">
+               <persName>Joseph Mosneron</persName>
+                  <note>négociant à <placeName ref="place_nantes">Nantes</placeName></note>
+                  </person>
             </listPerson>
          
          

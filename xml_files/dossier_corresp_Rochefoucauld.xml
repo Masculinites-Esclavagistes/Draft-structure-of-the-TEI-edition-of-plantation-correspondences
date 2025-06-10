@@ -2,8 +2,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- #MP:ce fichier est un modèle de fichier TEI qui contient un dossier individuel issu du corpus d'affaires judiciaires contenu dans COL E ANOM -->
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+<!-- #MP:ce fichier est un modèle de fichier TEI qui contient un sous dossier dans une correspondance de plantation -->
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       
       <fileDesc>
@@ -181,6 +182,7 @@
    <xi:include href="doc_FRAN_T11139_L17_SLfreres_Px_00384-6.xml"/>
    <xi:include href="doc_FRAN_T11139_L17_SLfreres_Px_00378-9.xml"/>
    <xi:include href="doc_FRAN_T111311_Lx_SL3_P550_01139-40.xml"/>
+   <xi:include href="doc_FRAN_T111311_Lx_SL2_P500_01123-5.xml"/>>
    
 </teiCorpus>
 

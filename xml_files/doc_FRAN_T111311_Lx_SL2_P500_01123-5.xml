@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre de Mosneron au <persName ref="pers_rochefoucauld_1">marquis de la Rochefoucauld</persName></title>
+            
+            <respStmt>
+               <resp>Direction du projet MEGV</resp>
+               <persName xml:id="MH">
+                  <forename>Marie</forename>
+                  <surname>Houllemare</surname>
+                  <ptr type="orcid" target="0000-0002-9120-8944"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="EB">
+                  <forename>Elodie</forename>
+                  <surname>Bascoul</surname>
+                  <ptr type="orcid" target="0009-0002-7324-6469"/>
+               </persName>
+               <persName xml:id="MP">
+                  <forename>Marion</forename>
+                  <surname>Philip</surname>
+                  <ptr type="orcid" target="0009-0001-6846-2688"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName ref="#EB"/>
+               <persName ref="#MP"/>
+               <persName xml:id="MM">
+                  <forename>Méloé</forename>
+                  <surname>Maillard</surname>
+                  <roleName>Assistante de recherche du projet MEGV</roleName>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Support</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+               <persName xml:id="TGN">
+                  <forename>Thomas</forename>
+                  <surname>Gauffroy-Naudin</surname>
+                  <ptr type="orcid" target="0009-0003-5309-8515"/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <extent>
+            <measure unit="total_images" n="3"/>
+         </extent>
+         
+         <publicationStmt>
+            <publisher>Projet MEGV</publisher>
+            <authority>Université de Genève</authority>
+            <address>
+               <addrLine>Uni Bastions, rue St-Ours</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
+               <p>Creative Commons Attribution CC BY-NC 4.0</p>
+            </availability>
+            <date when="2023-11-24"/>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives Nationales</institution>
+                  <repository>Papiers privés</repository>
+                  <collection>T</collection>
+                  <idno type="shelfmark">T//1113/11--</idno>
+                  <idno type="piece">pièce 500</idno>
+               </msIdentifier>
+               
+               
+               <history>
+                  <origin>
+                     <origDate>
+                        <date type="beginning" when="1790"></date>
+                        <date type="end" when="1790">----</date>
+                     </origDate>
+                  </origin>
+               </history>
+               
+               <msContents>
+                  <msItem>
+                     <locus from="--00" to="--00"/>
+                     <p>--Description--du--doc--</p>
+                  </msItem>
+               </msContents>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>Ce corpus numérique s'incrit dans le cadre du projet SETAF, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
+            </correction>
+            <normalization>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>.</p>
+            </normalization>
+         </editorialDecl>
+         <appInfo>
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target="https://github.com/mittagessen/kraken"/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target="https://test2.fondue.unige.ch"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      
+      <profileDesc>
+         <correspDesc corresp="code_corresp">
+            <correspAction type="sent">
+               <persName ref="#pers_mosneron_1">Joseph Mosneron</persName>
+               <!--<orgName ref=""></orgName>-->
+               <placeName ref="#place_nantes">Nantes</placeName>
+               <date when="1790-12-28">28 décembre 1790</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pers_rochefoucauld_1">Monsieur le marquis de la Rochefoucauld Baÿers</persName>
+               <!--<orgName ref=""> Nom de l'institution destinataire</orgName>-->
+               <placeName ref="#place_hotelvaugirard">en son hôtel rue Vaugirard, Paris</placeName>
+               <!--<date when="YYYY-MM-DD">Date de la réception du courrier</date>-->
+            </correspAction>
+            <!--<correspAction type="answered">
+               <date when="YYYY-MM-DD">Date de la réponse au courrier</date>
+            </correspAction>-->
+         </correspDesc>
+         
+         <creation>
+            <date type="type" when="2025-06-05"/>
+         </creation>
+         
+         <textClass>
+            <keywords scheme ="Nom_du_référentiel">
+               <list>
+                  <item>Un mot clef</item>
+                  <item>Un mot clef</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
+      <revisionDesc>
+         <change when="YYYY-MM-DD">
+            <persName ref="#code_personne_à_changer--"/>
+            <p>Ce qui a été changé</p>
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+  <text>
+      <body>
+         <pb n="1" facs="FRAN_T111311_Lx_SL2_P500_01123.jpg"/>
+         <opener>
+            <salute>
+               <persName ref="#pers_rochefoucauld_1">Monsieur</persName>,
+            </salute>
+         </opener>
+         <p> Je M'empresse de Vous faire Part de la Nouvelle qui a été<lb/>
+            apportée Par la frégate La Capricieuse qui a quitté la <placeName ref="#place_saintdomingue">Colonie</placeName> vers–<lb/>
+            le <date when="1790-11-20">20 de Novembre</date> &amp; arrivée à <placeName ref="#place_rochefort">Rochefort</placeName>: il passoit pour Certain<lb/>
+            avant son départ de <placeName ref="#place_saintdomingue">s^t Domingue</placeName> que le Nommé <persName ref="#pers_oge_1">Vincent ogé</persName> qui<lb/>
+            S'étoit mis à La tête d'une horde de gens de Couleur après avoir<lb/>
+            été défait, avoit été Contraint de fuir avec une Trentaine des–<lb/>
+            siens dans <placeName ref="#place_santodomingo">Partie espagnole</placeName>, est Tombé ensuite entre les Mains<lb/>
+            des <persName ref="#grp_français">français</persName> qui se Disposoient à lui faire subir Le –<lb/>
+            Châtiment qu'il méritoit. Ce <persName ref="pers_oge_1">Chef</persName> pris promettoit le –<lb/></p>
+         
+         <p>500<lb/></p>
+          
+         <pb n="2" facs="FRAN_T111311_Lx_SL2_P500_01124.jpg"/>
+         <p>Rétablissement du Calme dans la <placeName ref="#place_saintdomingue">Colonie</placeName> Concernant les Craintes<lb/>
+            qu'avoient occasionnés les Mulâtres<lb/></p>
+<closer> 
+   <salute>
+   si Mes Voeux peuvent ajouter quelque Choze à Votre<lb/>
+   Bonheur, Je Vous prie d'en agréer L'homage &amp; de Permettre<lb/>
+   que <persName ref="#pers_fougeu_2">Madame De la Rochefoucauld</persName> ainsi que <persName ref="#pers_fougeu_1">Madame La–<lb/>
+      Marechale</persName> trouvent l'expression des même sentimens<lb/>
+   Je suis avec Respect,<lb/>
+   <persName ref="#pers_rochefoucauld_1">Monsieur</persName>,<lb/>
+   Votre très humble &amp;<lb/>
+   <placeName ref="place_nantes">Nantes</placeName> le <date when="1790-12-28">28. X^bre 1790</date>.<lb/>
+   très obeissant serviteur.<lb/>
+   </salute>
+   <signed><persName ref="#pers_mosneron_1">Joseph Momeron</persName></signed>
+</closer>
+         
+         <pb n="3" facs="FRAN_T111311_Lx_SL2_P500_01125.jpg"/>
+        <closer><salute> 
+         <persName ref="#pers_rochefoucauld_1">A Monsieur</persName>
+      <persName ref="#pers_rochefoucauld_1">Monsieur Ch. de la rochefoucaud</persName>
+       Marechal des camps et armées du roi
+       a son <placeName ref="#place_hotelvaugirard">hôtel rüe vaugirard</placeName> près le théatre françois
+       à <placeName ref="#place_paris">Paris</placeName>
+     </salute>
+        </closer>
+         
+      </body>
+  </text>
+</TEI>

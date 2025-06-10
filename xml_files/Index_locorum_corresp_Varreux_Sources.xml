@@ -128,7 +128,7 @@
          <place xml:id="place_bordeaux" ><!-- peut-être pas besoin de noter le wikidata quand on a le geonames car c'est lié -->
             <placeName ref="geonames:3031582">Bordeaux</placeName>
          </place>
-         <place xml:id="place_culdesac"  ><!-- peut-être pas besoin de noter le wikidata quand on a le geonames car c'est lié -->
+         <place xml:id="place_culdesac">
             <placeName ref="geonames:3031582">Cul de Sac</placeName>
          </place>
          <place xml:id="place_varreux">
@@ -146,12 +146,32 @@
          <place xml:id="place_nantes">
             <placeName>Nantes</placeName>
          </place>
+         <place xml:id="place_rochefort">
+            <placeName>Rochefort</placeName>
+         </place>
+         <place xml:id="place_paris">
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="place_santodomingo">
+         <placeName>Partie espagnole de Saint-Domingue</placeName>
+         </place>
       </listPlace>
          
          
       <listPlace type="building">
          <place xml:id="place_chateautrompette" ><!-- J'ai corrigé comme si on avait décidé que c'était un placeName de type "batiment" mais c'est à changer / simplifier. Le code serait "pl" pour distinguer de PersName ?--> 
             <placeName ref="geonames:12166088">château Trompette</placeName>
+         </place>
+         <place xml:id="place_hotelvaugirard">
+            <placeName>Hôtel, rue Vaugirard, près le théâtre, Paris</placeName>
+            <location>
+               <address>
+                  <addrLine>Rue Vaugirard</addrLine>
+                  <addrLine>près le théâtre</addrLine>
+                  <settlement ref="#place_paris">Paris</settlement>
+               </address>
+            </location>
+            <note>Hôtel non identifié, dans le quartier du théâtre.</note>
          </place>
       </listPlace>
          
@@ -163,6 +183,7 @@
          <place xml:id="place_nouvelleangleterre" type="colony">
             <placeName>Nouvelle Angleterre</placeName> 
          </place>
+         
       </listPlace>
       
       
