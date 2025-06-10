@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:wikidata="http://www.wikidata.org/entity/"
+   xmlns:isni="http://isni.org/isni/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index Locorum</title>
+            <title>Fichier autonome d'index des noms de lieux de la Correspondance des plantations des héritières Fougeu, des Varreux et des Sources à Saint-Domingue</title>
+            <respStmt> <!-- Responsabilités dans l'édition de cet index : qui a fait quoi ?-->
+               <resp>Direction du projet MEGV</resp>
+               <persName xml:id="MH">
+                  <forename>Marie</forename>
+                  <surname>Houllemare</surname>
+                  <ptr type="orcid" target="0000-0002-9120-8944"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="EB">
+                  <forename>Elodie</forename>
+                  <surname>Bascoul</surname>
+                  <roleName>doctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0002-7324-6469"/>
+               </persName>
+               <persName xml:id="MP">
+                  <forename>Marion</forename>
+                  <surname>Philip</surname>
+                  <roleName>postdoctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0001-6846-2688"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName ref="#EB"/>
+               <persName ref="#MP"/>
+               <persName xml:id="MM">
+                  <forename>Méloé</forename>
+                  <surname>Maillard</surname>
+                  <roleName>Assistante de recherche du projet MEGV</roleName>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Support</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+               <persName xml:id="TGN">
+                  <forename>Thomas</forename>
+                  <surname>Gauffroy-Naudin</surname>
+                  <roleName>Soutien informatique du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0003-5309-8515"/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>Projet MEGV</publisher>
+            <authority>Université de Genève</authority>
+            <address>
+               <addrLine>Uni Bastions, rue St-Ours</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
+               <p>Creative Commons Attribution CC BY-NC 4.0</p>
+            </availability>
+            <date when="2023-11-24"/>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><!-- Identification de la source du document : quel fonds d'archives, quelle cote ? -->
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>AN</institution>
+                  <repository>Archives privées</repository>
+                  <collection>T</collection>
+               </msIdentifier>
+               <p>Données issues de l'édition critique de la correspondance</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>Ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
+            </correction>
+            <normalization>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>.</p>
+            </normalization>
+         </editorialDecl>
+         <appInfo>
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target="https://github.com/mittagessen/kraken"/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target="https://test2.fondue.unige.ch/"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      
+      <revisionDesc>
+         <change when="YYYY-MM-DD">
+            <persName ref="#code_personne_à_changer--"/>
+            <p>Ce qui a été changé</p>
+         </change>
+      </revisionDesc>
+      
+      
+   </teiHeader>
+   <text>
+      <body>
+      <listPlace type="settlement">
+         <place xml:id="place_bordeaux" ><!-- peut-être pas besoin de noter le wikidata quand on a le geonames car c'est lié -->
+            <placeName ref="geonames:3031582">Bordeaux</placeName>
+         </place>
+         <place xml:id="place_culdesac"  ><!-- peut-être pas besoin de noter le wikidata quand on a le geonames car c'est lié -->
+            <placeName ref="geonames:3031582">Cul de Sac</placeName>
+         </place>
+         <place xml:id="place_varreux">
+            <placeName>habitation des Varreux</placeName>
+         </place>
+         <place xml:id="place_sources">
+            <placeName>habitation des Sources</placeName>
+         </place>
+         <place xml:id="place_cap">
+            <placeName>Cap</placeName>
+         </place>
+         <place xml:id="place_portauprince">
+            <placeName>Port au Prince</placeName>
+         </place>
+         <place xml:id="place_nantes">
+            <placeName>Nantes</placeName>
+         </place>
+      </listPlace>
+         
+         
+      <listPlace type="building">
+         <place xml:id="place_chateautrompette" ><!-- J'ai corrigé comme si on avait décidé que c'était un placeName de type "batiment" mais c'est à changer / simplifier. Le code serait "pl" pour distinguer de PersName ?--> 
+            <placeName ref="geonames:12166088">château Trompette</placeName>
+         </place>
+      </listPlace>
+         
+      
+      <listPlace type="colony">
+         <place xml:id="place_saintdomingue" type="colony">
+            <placeName>Saint-Domingue</placeName> 
+         </place>
+         <place xml:id="place_nouvelleangleterre" type="colony">
+            <placeName>Nouvelle Angleterre</placeName> 
+         </place>
+      </listPlace>
+      
+      
+      <listPlace type="country">
+         <place xml:id="place_france" >
+            <placeName ref="wikidata:Q70972">Royaume de France</placeName>
+         </place>
+         <place xml:id="place_angleterre" >
+            <placeName ref="wikidata:Q179876">Royaume d'Angleterre</placeName>
+         </place>
+         <place xml:id="place_provincesunies" >
+            <placeName ref="wikidata:Q170072">Provinces Unies</placeName>
+         </place>
+      </listPlace>
+      </body>
+   </text>
+</TEI>

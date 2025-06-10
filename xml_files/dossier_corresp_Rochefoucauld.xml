@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- #MP:ce fichier est un modèle de fichier TEI qui contient un dossier individuel issu du corpus d'affaires judiciaires contenu dans COL E ANOM -->
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance reçue par <persName ref="#p1">le marquis de la Rochefoucauld</persName> au sujet des habitations Varreux et des Sources à Saint-Domingue</title> <!--Titre de la correspondance à remplir ici : à distinguer par la personne qui a conservé la correspondance / personne qui est en général le destinataire de la correspondance -->
+            <respStmt> <!-- Responsabilités dans l'édition de ce dossier individuel : qui a fait quoi ?-->
+               <resp>Direction du projet MEGV</resp>
+               <persName xml:id="MH">
+                  <forename>Marie</forename>
+                  <surname>Houllemare</surname>
+                  <ptr type="orcid" target="0000-0002-9120-8944"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="EB">
+                  <forename>Elodie</forename>
+                  <surname>Bascoul</surname>
+                  <roleName>doctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0002-7324-6469"/>
+               </persName>
+               <persName xml:id="MP">
+                  <forename>Marion</forename>
+                  <surname>Philip</surname>
+                  <roleName>postdoctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0001-6846-2688"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName ref="#EB"/>
+               <persName ref="#MP"/>
+               <persName xml:id="MM">
+                  <forename>Méloé</forename>
+                  <surname>Maillard</surname>
+                  <roleName>Assistante de recherche du projet MEGV</roleName>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Support</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+               <persName xml:id="TGN">
+                  <forename>Thomas</forename>
+                  <surname>Gauffroy-Naudin</surname>
+                  <roleName>Soutien informatique du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0003-5309-8515"/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <extent> <!-- Estimation du volume du dossier : nombre de fascimilés numériques contenus dans le dossier : n="" à remplir -->
+            <measure unit="total_images" n="---"/> 
+         </extent>
+         
+         <publicationStmt> <!-- Définition du projet, institutions, financements, licence-->
+            <publisher>Projet MEGV</publisher>
+            <authority>Université de Genève</authority>
+            <address>
+               <addrLine>Uni Bastions, rue St-Ours</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+               <country>Suisse</country>
+            </address>
+            <authority>Fonds national suisse (FNS)</authority>
+            <address>
+               <addrLine>Wildhainweg 3</addrLine>
+               <addrLine>CH-3001 Berne</addrLine>
+               <country>Suisse</country>
+            </address>
+            <availability status="restricted" n="CC-BY-NC">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
+               <p>Creative Commons Attribution CC BY-NC 4.0</p>
+            </availability>
+            <date when="YYYY-MM-DD"/> <!-- Date à compléter -->
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><!-- Identification de la source du document : quel fonds d'archives, quelle cote ? -->
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>AN</institution>
+                  <repository>Archives privées</repository>
+                  <collection>T//1113/8</collection>
+                  <collection>T//1113/9</collection>
+                  <collection>T//1113/11</collection>
+               </msIdentifier>
+               
+               <!--<additional> <!-- Lien vers l'ensemble de la collection d'archives en ligne sur le site des Archives ->
+                  <surrogates>
+                     <bibl>
+                        <ref type="archive_collection_website" target="https://recherche-anom.culture.gouv.fr/ark:/61561/wz818ikq"/>
+                     </bibl>
+                  </surrogates>
+               </additional>-->
+               
+               <history>
+                  <origin>
+                     <origDate> <!-- Compléter l'étendue chronologique du dossier-->
+                        <date type="beginning" when="17--"/>
+                        <date type="end" when="17--"/>
+                     </origDate>
+                  </origin>
+               </history>
+               
+               <!--<msContents> <!-- Surement pas utile car détail des pièces fournis dans le fichier TEI des documents en question ->
+                  <msItem>
+                     <locus from="--00" to="--00"/>
+                     <p>--Description--du--doc--</p>
+                  </msItem>
+                  <msItem>
+                     <locus from="--00" to="--00"/>
+                     <p>--Description--du--doc--</p>
+                  </msItem>
+               </msContents>-->
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>L'édition de ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS. Il a été facilité par la signature d'une convention entre le projet MEGV et les ANOM en décembre 2024.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target=www.google.fr--/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
+            </correction>
+            <normalization>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target=www.google.fr--/>.</p>
+            </normalization>
+         </editorialDecl> 
+         <appInfo> <!-- citation des outils utilisés -->
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target=https://github.com/mittagessen/kraken/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target=https://test2.fondue.unige.ch//>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      
+      <profileDesc>
+         <creation>
+            <date type="type" when="2025-06-10"/>
+         </creation>
+         
+         <textClass>
+            <keywords scheme ="Nom_du_référentiel">
+               <list>
+                  <item>Un mot clef</item>
+                  <item>Un mot clef</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
+      <revisionDesc>
+         <change when="YYYY-MM-DD">
+            <persName ref="#code_personne_à_changer--"/>
+            <p>Ce qui a été changé</p>
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+   
+   <!-- Liste des documents contenus dans ce dossier individuel (dans l'ordre)-->
+   <xi:include href="doc_FRAN_T11139_L17_SLfreres_Px_00384-6.xml"/>
+   <xi:include href="doc_FRAN_T11139_L17_SLfreres_Px_00378-9.xml"/>
+   <xi:include href="doc_FRAN_T111311_Lx_SL3_P550_01139-40.xml"/>
+   
+</teiCorpus>
+

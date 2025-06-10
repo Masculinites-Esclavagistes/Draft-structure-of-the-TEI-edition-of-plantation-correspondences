@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" version="3.3.0">
+   <!-- #MP:ce fichier est un modèle de fichier TEI qui contient l'ensemble du corpus de correspondance -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Corpus de la correspondance de la plantation Varreux, des Sources des héritières Fougeu à Saint-Domingue du projet MEGV</title>
+            
+            <respStmt><!-- Responsabilités dans l'édition de ce dossier individuel : qui a fait quoi ?-->
+                  <resp>Direction du projet MEGV</resp>
+                  <persName xml:id="MH">
+                     <forename>Marie</forename>
+                     <surname>Houllemare</surname>
+                     <ptr type="orcid" target="0000-0002-9120-8944"/>
+                  </persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Encoding</resp>
+                  <persName xml:id="EB">
+                     <forename>Elodie</forename>
+                     <surname>Bascoul</surname>
+                     <roleName>doctorante du projet MEGV</roleName>
+                     <ptr type="orcid" target="0009-0002-7324-6469"/>
+                  </persName>
+                  <persName xml:id="MP">
+                     <forename>Marion</forename>
+                     <surname>Philip</surname>
+                     <roleName>postdoctorante du projet MEGV</roleName>
+                     <ptr type="orcid" target="0009-0001-6846-2688"/>
+                  </persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Transcription</resp>
+                  <persName ref="#EB"/>
+                  <persName ref="#MP"/>
+                  <persName xml:id="MM">
+                     <forename>Méloé</forename>
+                     <surname>Maillard</surname>
+                     <roleName>Assistante de recherche du projet MEGV</roleName>
+                  </persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Support</resp>
+                  <persName xml:id="SG">
+                     <forename>Simon</forename>
+                     <surname>Gabay</surname>
+                     <ptr type="orcid" target="0000-0001-9094-4475"/>
+                  </persName>
+                  <persName xml:id="TGN">
+                     <forename>Thomas</forename>
+                     <surname>Gauffroy-Naudin</surname>
+                     <roleName>Soutien informatique du projet MEGV</roleName>
+                     <ptr type="orcid" target="0009-0003-5309-8515"/>
+                  </persName>
+               </respStmt>
+         </titleStmt>
+         
+         <extent> <!-- Estimation du volume du dossier : nombre de fascimilés numériques contenus dans le dossier : n="" à remplir -->
+            <measure unit="total_images" n="17001"/>
+         </extent>
+         
+         <publicationStmt> <!-- Définition du projet, institutions, financements, licence-->
+            <publisher>Projet MEGV</publisher>
+            <authority>Université de Genève</authority>
+            <address>
+               <addrLine>Uni Bastions, rue St-Ours</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+               <country>Suisse</country>
+            </address>
+            <authority>Fonds national suisse (FNS)</authority>
+            <address>
+               <addrLine>Wildhainweg 3</addrLine>
+               <addrLine>CH-3001 Berne</addrLine>
+               <country>Suisse</country>
+            </address>
+            <availability status="restricted" n="CC-BY-NC">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
+               <p>Creative Commons Attribution CC BY-NC 4.0</p>
+            </availability>
+            <date when="YYYY-MM-DD"/> <!-- Date à compléter -->
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><!-- Identification de la source du document : quel fonds d'archives, quelle cote ? -->
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>AN</institution>
+                  <repository>Archives privées</repository>
+                  <collection>T</collection>
+               </msIdentifier>
+               
+               <!--<additional> <!-- Lien vers l'ensemble de la collection d'archives en ligne sur le site des Archives ->
+                  <surrogates>
+                     <bibl>
+                        <ref type="archive_collection_website" target="https://recherche-anom.culture.gouv.fr/ark:/61561/wz818ikq"/>
+                     </bibl>
+                  </surrogates>
+               </additional>-->
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>L'édition de ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS. Il a été facilité par la signature d'une convention entre le projet MEGV et les ANOM en décembre 2024.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target="www.google.fr"/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p><!-- à modifier / compléter -->
+            </correction>
+            <normalization>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target="www.google.fr"/>.</p>
+            </normalization>
+         </editorialDecl>
+         <appInfo>  <!-- citation des outils utilisés -->
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target="https://github.com/mittagessen/kraken/"/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target="https://test2.fondue.unige.ch/"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      
+   </teiHeader>
+   <!-- Liste des correspondances contenus dans le corpus de la plantation Varreux - des Sources du projet MEGV -->
+   <xi:include href="dossier_corresp_MRFougeu.xml"/> <!-- Correspondance reçue par Marie Rose Fougeu-->
+   <xi:include href="dossier_corresp_Rochefoucauld.xml"/> <!-- Correspondance reçue par le marquis de la Rochefoucauld-->
+   
+</teiCorpus>

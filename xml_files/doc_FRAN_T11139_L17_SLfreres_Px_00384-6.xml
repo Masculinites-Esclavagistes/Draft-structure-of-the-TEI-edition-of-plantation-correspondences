@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:isni="http://isni.org/isni/"
+   xmlns:geonames="https://www.geonames.org/ontology#"
+   xmlns:wikidata="http://www.wikidata.org/entity/">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre de <persName ref='#p13'> Charles Robion</persName> et le <persName ref="#p1">Marquis de la Rochefoucault</persName> à propos du contexte de la Guerre d'indépendance américaine à <placeName ref="#col1">Saint-Domingue</placeName></title>
+            <respStmt>
+               <resp>Direction du projet MEGV</resp>
+               <persName xml:id="MH">
+                  <forename>Marie</forename>
+                  <surname>Houllemare</surname>
+                  <ptr type="orcid" target="0000-0002-9120-8944"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="EB">
+                  <forename>Elodie</forename>
+                  <surname>Bascoul</surname>
+                  <roleName>doctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0002-7324-6469"/>
+               </persName>
+               <persName xml:id="MP">
+                  <forename>Marion</forename>
+                  <surname>Philip</surname>
+                  <roleName>postdoctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0001-6846-2688"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName ref="#EB"/>
+               <persName ref="#MP"/>
+               <persName xml:id="MM">
+                  <forename>Méloé</forename>
+                  <surname>Maillard</surname>
+                  <roleName>Assistante de recherche du projet MEGV</roleName>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Support</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+               <persName xml:id="TGN">
+                  <forename>Thomas</forename>
+                  <surname>Gauffroy-Naudin</surname>
+                  <roleName>Soutien informatique du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0003-5309-8515"/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <extent>
+            <measure unit="total_images" n="3"/> <!-- à remplir nombre de facsimilés -->
+         </extent>
+         
+         <publicationStmt>
+            <publisher>Projet MEGV</publisher>
+            <authority>Université de Genève</authority>
+            <address>
+               <addrLine>Uni Bastions, rue St-Ours</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
+               <p>Creative Commons Attribution CC BY-NC 4.0</p>
+            </availability>
+            <date when="2023-11-24"/>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives Nationales</institution>
+                  <repository>Papiers privés</repository>
+                  <collection>T</collection>
+                  <idno type="shelfmark">T//1113/9--</idno>
+                  <idno type="bundle">17</idno>
+               </msIdentifier>
+               
+               
+               <!--<history>
+                  <origin>
+                     <origDate>
+                        <date type="beginning" when="YYYY-MM-DD"></date>
+                        <date type="end" when="YYYY-MM-DD"></date>
+                     </origDate>
+                  </origin>
+               </history>-->
+               
+               <msContents>
+                  <msItem>
+                     <locus from="--00" to="--00"/>
+                  </msItem>
+               </msContents>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>Ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
+            </correction>
+            <normalization>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>.</p>
+            </normalization>
+         </editorialDecl>
+         <appInfo>
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target="https://github.com/mittagessen/kraken"/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target="https://test2.fondue.unige.ch/"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      
+      <profileDesc>
+         <correspDesc corresp="code_corresp">
+            <correspAction type="sent">
+               <persName ref="#p13">Robion</persName>
+               <orgName ref="--#id5"> Nom de l'institution rédactrice</orgName>
+               <placeName ref="#s1">Cul de Sac</placeName>
+               <date when="1778-12-24">24 décembre 1778</date> <!-- Tu avais confondu date d'envoi/rédaction et date de réception -->
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#p1">M. le marquis de la Rochefoucauld</persName>
+               <orgName ref="--#id5"> Nom de l'institution destinataire</orgName>
+               <placeName ref="--#id4">Lieu de réception du courrier si précisé</placeName>
+               <!-- <date when="YYYY-MM-DD">Date de réception</date>-->
+            </correspAction>
+            <!--<correspAction type="answered">
+               <date when="YYYY-MM-DD">Date de la réponse au courrier</date>
+            </correspAction>-->
+         </correspDesc>
+         
+         <creation>
+            <date type="type" when="2025-06-10"/>
+         </creation>
+         
+         <textClass>
+            <keywords scheme ="Nom_du_référentiel">
+               <list>
+                  <item>Un mot clef</item>
+                  <item>Un mot clef</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
+      <revisionDesc>
+         <change when="YYYY-MM-DD">
+            <persName ref="#code_personne_à_changer--"/>
+            <p>Ce qui a été changé</p>
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+   
+  <text>
+      <body>
+         <pb n="1" facs="FRAN_T11139_L17_SLfreres_Px_00384.jpg"/>
+            <p>Grace à dieu tout va bien et tourne au gré demes desirs<lb/>
+               n'ayez donc aucune inquietude, reposez vous sur <persName ref="#pers_robion_1">moy</persName>–<lb/>
+               le zele que j'apporte pour tout ce qui vous regarde doit<lb/>
+               il me semble vous tranquiliser. Lorsque vous seréz<lb/>
+               Longtems sans recevoir de mes Nouvelles–<lb/>
+               n'attribuez nullement à parresse et à negligence mon<lb/>
+               silence il ny a que le defaut doccasion qui me privera<lb/>
+               du plaisir de vous ecrire nous n'avons point eu de convoy<lb/>
+               depuis Le Commencement d'août nous sommes<lb/>
+               pour ainsi dire sans ressource Comment est il possible<lb/>
+               qu'on abandonne une <placeName ref="#place_saintdomingue">Colonie </placeName>qui donne autant de<lb/>
+               revenûs à la <placeName ref="#place_france">france</placeName>, il narrive point de Navires et<lb/>
+               nous manquons des Besoins les plus Urgents<lb/>
+               les personnes de Nous qui ont ses Biens à ⎯<lb/>
+               <placeName ref="#place_saintdomingue">S^t Domingue</placeName> devroient bien faire des répresentations<lb/>
+               au <persName ref="#pers_sartine_1">Ministre</persName>⎯<lb/></p>
+         <p>Nous sommes pour le moment vexés par la <orgName ref="#org_milice"></orgName>Milice<lb/>
+            je vais être de garde au p^e jour avec un détachement de,<lb/>
+            vingt hommes je serai pendant 8. Jours aux fonds<lb/>
+            a faire la Guerre aux Moustiques et aux ⎯<lb/>
+            Maringouins–<lb/></p>
+         <p><persName ref="#pers_estaing_1">M^r Destaing</persName> fait dit on des merveilles<lb/>
+            a la <placeName ref="#place_nouvelleangleterre">Nouvelle Anglettere</placeName> il s'est emparé des<lb/>
+            V^aux ou Fregattes de <persName ref="#pers_howe_1">Lamiral Howe</persName>, Les français<lb/>
+            sont Jaloux de réparer Les Torts de la guerre d^re<lb/></p>
+         <pb n="2" facs="FRAN_T11139_L17_SLfreres_Px_00385.jpg"/>
+         <p>patience j'augure bien de nos armes, Lorsque vous<lb/>
+            Trouveréz vous à mécrire donnéz moy de vos N^lle<lb/>
+            ainsi que de celles <rs type="personGrp" ref="#pers_fougeu_1 #pers_fougeu_2">demes Cousines</rs> je prends le plus<lb/><!-- comment faire quand allusion à deux personnes en même temps ?  -->
+            vif intêret à tout ce qui vous régarde.<lb/>
+            point d'inquiétude sur vos Biens, Soyez<lb/>
+         persuadé que tout ira bien. dans le tems ou nous<lb/>
+         sommes Le principal selon moy est de Conserver<lb/>
+         Le Mobilier enConséquence je vais mettre une –<lb/>
+         piece de Canne de plus en patates pour secourir les<lb/>
+         <persName ref="#grp_esclavises_plantations">Negres</persName>; ces gens ont toutes les penes du monde à<lb/>
+         avoir leur necessaire. tout devient plus rare et plus<lb/>
+         cher en tems de Guerre. il faut leur fournir moyen<lb/>
+         de Subsister. jose esperer que vous gouteréz mes<lb/>
+         raisons ansi que <persName ref="#pers_fougeu_1">Madame La Marechale</persName><lb/>
+         Veüilléz je vous prie lui offrir mon Respect<lb/>
+         ainsi qua <persName ref="#pers_fougeu_2">Madame</persName> et <persName ref="#pers_rochefoucauld_2">Mademoiselle Le Baÿers</persName><lb/>
+         portez vous ainsi bien que moy et me Croyéz<lb/>
+         avec Respect.<lb/></p>
+         <closer>
+            <salute><persName ref="#pers_rochefoucauld_1">Monsieur</persName><lb/>
+            Votre tres humble et<lb/>
+            et tres obeissent Serviteur<lb/>
+                Au <placeName ref="#place_culdesac">Cul de Sac</placeName> le <date when="1778-12-24"></date>24 X^bre 1778.<lb/></salute></closer>
+         <signed><persName ref="#pers_robion_1">Robion</persName></signed>
+         
+         <p>Les sucres sont aujourdhuy. Sans demande. Le Blanc<lb/>
+             Vaut 30^ Le % Le Brut est à 10. a 12^lt le % nous n'avons<lb/>
+            aucuns Navires pour exporter nos denrées. <placeName ref="#place_saintdomingue">St Domingue</placeName><lb/>
+            est entierement oubliée. Comment peut on nous abandonner⎯<lb/>
+            ainsi ? Je viens d'etre obligé de vendre du sucre blanc a 36<lb/>
+            et 30^lt Le % il faut bien payer les personnes employés<lb/>
+            Sur <rs type="placeGrp" ref="#place_varreux #place_sources">vos habitations</rs>, il faut  leur fournir Les moyens<lb/>
+            de subsister votre intention n'est pas je Crois qu'ils manquent<lb/>
+            des besoins Les plus Urgents qui sont ceux de la vie<lb/>
+            nous sommes <persName ref="#pers_rochefoucauld">Monsieur</persName> dans la plus grande Misere<lb/>
+            jene sais exactement àquel Saint me voüer; il faut<lb/>
+            prendre patience on nous enverra peut être a La fin quelques<lb/>
+            Secours.<lb/></p>
+         <p>Le <placeName ref="#place_cap">Cap</placeName> est bloqué par un <persName ref="#grp_anglais">Escadre angloise</persName> depuis<lb/>
+            environ un mois, elle ne Laisse pas passer un seul N^re<lb/>
+            Marchand, les Insurgents et les <persName ref="#grp_hollandais">hollandois</persName> sur<lb/>
+            Lesquels nous Comptions ne frequentent nullement nos<lb/>
+            portes. Je ne scais sicette Lettre vous parviendra elle<lb/>
+            passé par La flute du Roy la Menagére de Roches<lb/>
+            nous n'avons aucuns Convoÿs le N^re Marchands<lb/>
+            Vont pourrir dans Le port.<lb/></p> 
+         <p> Je ne puis écrire pour aujourdhuy a <persName ref="#pers_fougeu_1">Mad. La</persName>⎯<lb/>
+            <persName ref="#pers_fougeu_1">le Marechale</persName>, cette fregatte est arrivée au <placeName ref="#place_cap">Cap</placeName> il y<lb/>
+            a 8. Jours. M. Le G^l vient d'envoyer au <placeName ref="#place_portauprince">Port au prince</placeName><lb/>
+            un Courrier extraordinaire pour annoncer Pour six Jours<lb/>
+            le depart de ce Batiment. Je ne sais, meme Si–<lb/>
+            jaurois Le Tems décrire à ma famille dans⎯<lb/></p> 
+         
+         <pb n="3" facs="FRAN_T11139_L17_SLfreres_Px_00386.jpg"/>
+         <p>cette jncertitude Vëuillez écrire a <persName ref="#pers_linger_1">ma mere</persName> et l'assurer que<lb/>
+         je me porte bien.<lb/>
+         de grace <persName ref="#pers_rochefoucauld_1">Monsieur</persName>, nayéz point d'inquietude<lb/>
+         sur vos biens je suis tout a vous Comptéz que je<lb/>
+         ferai pour le mieux<lb/></p> 
+         <closer>
+            <salute>
+               Je suis avec Respect<lb/>
+               <persName ref="#pers_rochefoucauld_1">Monsieur</persName>,<lb/>
+               Votre tres humble et<lb/>
+               Obeissant serviteur<lb/>
+               Au <placeName ref="#place_culdesac">Cul de Sac</placeName><lb/> le <date when="1778-12-24">24 X^bre 1778</date>※<lb/>
+            </salute>
+         </closer>
+                  
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance entre Jaune Gand et le Marquis de la Rochefoucault à propos de Mr Provenchère emprisonné à Bordeaux</title>
+            <respStmt>
+               <resp>Direction du projet MEGV</resp>
+               <persName xml:id="MH">
+                  <forename>Marie</forename>
+                  <surname>Houllemare</surname>
+                  <ptr type="orcid" target="0000-0002-9120-8944"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="EB">
+                  <forename>Elodie</forename>
+                  <surname>Bascoul</surname>
+                  <roleName>doctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0002-7324-6469"/>
+               </persName>
+               <persName xml:id="MP">
+                  <forename>Marion</forename>
+                  <surname>Philip</surname>
+                  <roleName>postdoctorante du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0001-6846-2688"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName ref="#EB"/>
+               <persName ref="#MP"/>
+               <persName xml:id="MM">
+                  <forename>Méloé</forename>
+                  <surname>Maillard</surname>
+                  <roleName>Assistante de recherche du projet MEGV</roleName>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Support</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000-0001-9094-4475"/>
+               </persName>
+               <persName xml:id="TGN">
+                  <forename>Thomas</forename>
+                  <surname>Gauffroy-Naudin</surname>
+                  <roleName>Soutien informatique du projet MEGV</roleName>
+                  <ptr type="orcid" target="0009-0003-5309-8515"/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <extent>
+            <measure unit="total_images" n="2"/> <!-- à remplir nombre de facsimilés -->
+         </extent>
+         
+         <publicationStmt>
+            <publisher>Projet MEGV</publisher>
+            <authority>Université de Genève</authority>
+            <address>
+               <addrLine>Uni Bastions, rue St-Ours</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
+               <p>Creative Commons Attribution CC BY-NC 4.0</p>
+            </availability>
+            <date when="2023-11-24"/>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives Nationales</institution>
+                  <repository>Papiers privés</repository>
+                  <collection>T</collection>
+                  <idno type="shelfmark">T//1113/11--</idno>
+                  <idno type="piece">pièce 550</idno>
+               </msIdentifier>
+               
+               
+               <history>
+                  <origin>
+                     <origDate>
+                        <date type="beginning" when="17--">----</date>
+                        <date type="end" when="17--">----</date>
+                     </origDate>
+                  </origin>
+               </history>
+               
+               <msContents>
+                  <msItem>
+                     <locus from="--00" to="--00"/>
+                  </msItem>
+               </msContents>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>Ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
+            </correction>
+            <normalization>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>.</p>
+            </normalization>
+         </editorialDecl>
+         <appInfo>
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target="https://github.com/mittagessen/kraken"/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target="https://test2.fondue.unige.ch/"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      
+      <profileDesc>
+         <correspDesc corresp="code_corresp">
+            <correspAction type="sent">
+               <persName ref="#pers_jaune_1">Jaune Gand</persName>
+               <!--<orgName ref=""> Nom de l'institution rédactrice</orgName>-->
+               <placeName ref="#place_bordeaux">Bordeaux</placeName>
+               <date when="1769-01-24">24 janvier 1769</date> <!-- Tu avais confondu date d'envoi/rédaction et date de réception -->
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pers_rochefoucauld_1">M. le marquis de la Rochefoucauld</persName>
+               <!--<orgName ref=""> Nom de l'institution destinataire</orgName>
+               <placeName ref="">Lieu de réception du courrier si précisé</placeName>
+               <date when="YYYY-MM-DD">Date de réception</date>-->
+            </correspAction>
+            <!--<correspAction type="answered">
+               <date when="YYYY-MM-DD">Date de la réponse au courrier</date>
+            </correspAction>-->
+         </correspDesc>
+         
+         <creation>
+            <date type="type" when="YYYY-MM-DD"/>
+         </creation>
+         <textClass>
+            <keywords scheme ="Nom_du_référentiel">
+               <list>
+                  <item>Un mot clef</item>
+                  <item>Un mot clef</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
+      <revisionDesc>
+         <change when="YYYY-MM-DD">
+            <persName ref="#code_personne_à_changer--"/>
+            <p>Ce qui a été changé</p>
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+   
+  <text>
+      <body>
+         <opener>
+            <salute>
+               <placeName ref="#place_bordeaux">Bordeaux</placeName><date when="1769-01-24">24^e Janvier 1769</date>
+               <persName ref="#pers_rochefoucauld_1">Monsieur</persName>
+            </salute>
+         </opener>
+         <p>
+            En Recevant samedy <date when="1769-01-21">21^e</date> Courant la lettre dont vous m'avez<lb/> 
+            honnoré le <date when="1769-01-16">16^e</date> accompagnant une jncluse pour <persName ref="#pers_graulet_1">M. Delagraulet</persName><lb/>
+            et une autre pour <persName ref="#pers_provenchere_1">M^r Provenchere</persName>, J'envoyois sur le champ<lb/>
+            Communiquer le tout a ce <persName ref="#pers_graulet_1">premier commandant</persName> au <placeName ref="#place_chateautrompette">chateau</placeName><lb/> <!-- question est-ce qu'on pourrait alléger l'identification des personnages ? A-t-on vraiment besoin d'identifier toutes les mentions d'un même perso dans une seule page ? les "Monsieur" adressé au destinataire ne sont surement pas nécessaire à identifier-->
+            <placeName ref="#place_chateautrompette">Trompette</placeName>, et je sais que dans le moment jl fit Remettre et<lb/>
+            communiquer le tout a <persName ref="#pers_provenchere_1">M^r Provenchere</persName>, et luy permit le<lb/>
+            <date when="1769-01-22">lendemain dimanche</date> d'avoir a diner avec luy dans sa <orgName ref="#place_prisonbordeaux">prison</orgName><lb/>
+            ses deux Beaufreres <persName ref="#pers_fuet_1">M^rs &amp; fuet</persName> &amp; <persName ref="#pers_souterie_1">souterie d'orleans</persName> qui sont<lb/>
+            icy depuis cinq jours, je sais Encore que <date when="1769-01-23">hier lundy</date> ses<lb/>
+            deux M^rs ont diné avec <persName ref="#pers_provenchere_1">M^r Provenchere</persName> ches <persName ref="#pers_graulet_1">M^r De–</persName><lb/>
+            <persName ref="#pers_graulet_1">Lagraulet</persName>, qui ne veut pourtant pas Encore le laisser parler<lb/>
+            a tous ses amis de <placeName ref="#place_bordeaux">Bordeaux</placeName>, au moyen de qu'oy mon neveu<lb/>
+            le <persName ref="#pers_masse_1">sieur Massé</persName> n'a pas peu le voir mais jl m'envoye tous<lb/>
+            les jours son <persName ref="#pers_valet_1">Negre vallet</persName> me donner verballement de<lb/>
+            ses nouvelles, et je pense que s'il vous Ecrit aujourd'huy<lb/>
+            jl aura chargé M^rs <persName ref="#pers_fuet_1">fuet</persName> &amp; <persName ref="#pers_souterie_1">souterie</persName> de Remettre ses lettres<lb/>
+            a la poste.<lb/> </p>
+         <p>Je suis plus qu'Etonné que les <date when="1769-01-16">16^e Courant</date> le ministre n'eut<lb/>
+            pas Reçü des lettres de <persName ref="#pers_rohan_1">M. Le ch^er De Rohan</persName> ce que je sais<lb/>
+            de bien positif ce que le 10^e Jour que j'ay eu l'honneur de vous<lb/>
+            jnformer de l'arrivée a <placeName ref="#place_bordeaux">Bordeaux</placeName> de <persName ref="#pers_provenchere_1">M^r Provenchere</persName> <persName ref="#pers_chapelle_1">M^r</persName><lb/>
+            <persName ref="#pers_chapelle_1">Lachapelle</persName> commandant le Navire dans lequel jl a passé<lb/>
+            a Remise a la poste un pacquet adressé a <persName ref="#pers_choiseulpraslin_1">M^r Le Duc </persName>.<lb/></p>
+         
+         <p><persName ref="#pers_rochefoucauld_1">M. Le M^is De la Rochefoucault Bayers ※</persName><lb/></p>
+         
+         <p>550<lb/></p>
+            
+            <p> <persName ref="#pers_choiseulpraslin_1">De Praslin</persName> &amp; un autre pour <persName ref="#pers_choiseul_1">M. Le Duc de Choÿseul</persName> Enfin<lb/>
+               <persName ref="#pers_rochefoucauld_1">Monsieur</persName> <persName ref="#pers_provenchere_1">M^r Provenchere</persName> se porte bien jl est joyeux<lb/>
+               Et content, et je vous Reytere que sans pas une Reserve<lb/>
+               tous mes pouvoirs sont Entierement a son service, Et que<lb/>
+               je suis jmpatient de pouvoir sortir de ma chambre Et qu'il<lb/>
+               aye sa liberté pour luy En donner personnellement toutes<lb/>
+               Les Preuves<lb/> </p>
+         <closer>
+            <salute>
+               Je suis avec un profond Respect<lb/>
+               <persName ref="#pers_rochefoucauld_1">Monsieur</persName><lb/>
+               votre tres humble &amp; tres<lb/>
+               obeissant serviteur<lb/>
+            </salute>
+         </closer>
+            
+         <signed><persName ref="#pers_jaune_1">Jaune gand</persName></signed>
+      </body>
+     
+  </text>
+</TEI>
