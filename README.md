@@ -11,6 +11,7 @@ This draft is based on the example of a few letters from the correspondence of t
 | T//1113/9 - liasse 17     |Lettre de Robion au marquis de la Rochefoucauld, 24 décembre 1777 et 21 décembre 1778  |            3        |FRAN_T11139_L17_SLfreres_Px_00384, FRAN_T11139_L17_SLfreres_Px_00385, FRAN_T11139_L17_SLfreres_Px_00386|
 | T//1113/9 - liasse 17     |Lettre de Robion au marquis de la Rochefoucauld, 24 décembre 1777 et 21 décembre 1778  |            3        |FRAN_T11139_L17_SLfreres_Px_00384, FRAN_T11139_L17_SLfreres_Px_00385, FRAN_T11139_L17_SLfreres_Px_00386|
 |T//1113/11 - pièce 550     |Lettre de Jaune à Bordeaux à propos de l’emprisonnement de Provenchère, 24 janvier 1769|            2        | FRAN_T111311_Lx_SL3_P550_01139, FRAN_T111311_Lx_SL3_P550_01140                                         |
+|T//1113/11 - pièce 500     |Lettre de Mosneron à la Rochefoucauld le 28 décembre 1790                              |            3        | FRAN_T111311_Lx_SL2_P500_01123, FRAN_T111311_Lx_SL2_P500_01124, FRAN_T111311_Lx_SL2_P500_01125         |
 
 
 
