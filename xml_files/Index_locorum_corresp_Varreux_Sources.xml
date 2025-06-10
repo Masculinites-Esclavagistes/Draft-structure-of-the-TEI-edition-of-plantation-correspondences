@@ -138,22 +138,19 @@
             <placeName>habitation des Sources</placeName>
          </place>
          <place xml:id="place_cap">
-            <placeName>Cap</placeName>
+            <placeName ref="geonames:3728474">Cap</placeName>
          </place>
          <place xml:id="place_portauprince">
-            <placeName>Port au Prince</placeName>
+            <placeName ref="geonames:3718426">Port au Prince</placeName>
          </place>
          <place xml:id="place_nantes">
-            <placeName>Nantes</placeName>
+            <placeName ref="geonames:2990969">Nantes</placeName>
          </place>
          <place xml:id="place_rochefort">
-            <placeName>Rochefort</placeName>
+            <placeName ref="geonames:2983276">Rochefort</placeName>
          </place>
          <place xml:id="place_paris">
-            <placeName>Paris</placeName>
-         </place>
-         <place xml:id="place_santodomingo">
-         <placeName>Partie espagnole de Saint-Domingue</placeName>
+            <placeName ref="geonames:2988507">Paris</placeName>
          </place>
       </listPlace>
          
@@ -196,6 +193,9 @@
          </place>
          <place xml:id="place_provincesunies" >
             <placeName ref="wikidata:Q170072">Provinces Unies</placeName>
+         </place>
+         <place xml:id="place_santodomingo">
+         <placeName ref="geonames:3508796">Partie espagnole de Saint-Domingue</placeName>
          </place>
       </listPlace>
       </body>
