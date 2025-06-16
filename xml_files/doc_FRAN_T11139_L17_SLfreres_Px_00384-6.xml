@@ -177,6 +177,7 @@
    
   <text>
       <body>
+         <div>
          <pb n="1" facs="FRAN_T11139_L17_SLfreres_Px_00384.jpg"/>
             <p>Grace à dieu tout va bien et tourne au gré demes desirs<lb/>
                n'ayez donc aucune inquietude, reposez vous sur <persName ref="#pers_robion_1">moy</persName>–<lb/>
@@ -227,8 +228,8 @@
             Votre tres humble et<lb/>
             et tres obeissent Serviteur<lb/>
                 Au <placeName ref="#place_culdesac">Cul de Sac</placeName> le <date when="1778-12-24"></date>24 X^bre 1778.<lb/></salute></closer>
-         <signed><persName ref="#pers_robion_1">Robion</persName></signed>
-         
+            <signed><persName ref="#pers_robion_1">Robion</persName></signed></div>
+         <div>
          <p>Les sucres sont aujourdhuy. Sans demande. Le Blanc<lb/>
              Vaut 30^ Le % Le Brut est à 10. a 12^lt le % nous n'avons<lb/>
             aucuns Navires pour exporter nos denrées. <placeName ref="#place_saintdomingue">St Domingue</placeName><lb/>
@@ -271,7 +272,7 @@
                Obeissant serviteur<lb/>
                Au <placeName ref="#place_culdesac">Cul de Sac</placeName><lb/> le <date when="1778-12-24">24 X^bre 1778</date>※<lb/>
             </salute>
-         </closer>
+         </closer></div>
                   
       </body>
   </text>
