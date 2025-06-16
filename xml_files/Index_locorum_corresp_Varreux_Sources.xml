@@ -125,77 +125,80 @@
    <text>
       <body>
       <listPlace type="settlement">
-         <place xml:id="place_bordeaux" ><!-- peut-être pas besoin de noter le wikidata quand on a le geonames car c'est lié -->
+         <place xml:id="place_bordeaux_1" ><!-- peut-être pas besoin de noter le wikidata quand on a le geonames car c'est lié -->
             <placeName ref="geonames:3031582">Bordeaux</placeName>
          </place>
-         <place xml:id="place_culdesac">
+         <place xml:id="place_culdesac_1">
             <placeName ref="geonames:3031582">Cul de Sac</placeName>
          </place>
-         <place xml:id="place_varreux">
+         <place xml:id="place_varreux_1">
             <placeName>habitation des Varreux</placeName>
          </place>
-         <place xml:id="place_sources">
+         <place xml:id="place_sources_1">
             <placeName>habitation des Sources</placeName>
          </place>
-         <place xml:id="place_cap">
+         <place xml:id="place_cap_1">
             <placeName ref="geonames:3728474">Cap</placeName>
          </place>
-         <place xml:id="place_portauprince">
+         <place xml:id="place_portauprince_1">
             <placeName ref="geonames:3718426">Port au Prince</placeName>
          </place>
-         <place xml:id="place_nantes">
+         <place xml:id="place_nantes_1">
             <placeName ref="geonames:2990969">Nantes</placeName>
          </place>
-         <place xml:id="place_rochefort">
+         <place xml:id="place_rochefort_1">
             <placeName ref="geonames:2983276">Rochefort</placeName>
          </place>
-         <place xml:id="place_paris">
+         <place xml:id="place_paris_1">
             <placeName ref="geonames:2988507">Paris</placeName>
          </place>
       </listPlace>
          
          
       <listPlace type="building">
-         <place xml:id="place_chateautrompette" ><!-- J'ai corrigé comme si on avait décidé que c'était un placeName de type "batiment" mais c'est à changer / simplifier. Le code serait "pl" pour distinguer de PersName ?--> 
+         <place xml:id="place_chateautrompette_1" ><!-- J'ai corrigé comme si on avait décidé que c'était un placeName de type "batiment" mais c'est à changer / simplifier. Le code serait "pl" pour distinguer de PersName ?--> 
             <placeName ref="geonames:12166088">château Trompette</placeName>
          </place>
-         <place xml:id="place_hotelvaugirard">
+         <place xml:id="place_hotelvaugirard_1">
             <placeName>Hôtel, rue Vaugirard, près le théâtre, Paris</placeName>
             <location>
                <address>
                   <addrLine>Rue Vaugirard</addrLine>
                   <addrLine>près le théâtre</addrLine>
-                  <settlement ref="#place_paris">Paris</settlement>
+                  <settlement ref="#place_paris_1">Paris</settlement>
                </address>
             </location>
             <note>Hôtel non identifié, dans le quartier du théâtre.</note>
+         </place>
+         <place xml:id="place_prisonbordeaux_1">
+            <placeName>prison de Bordeaux</placeName> 
          </place>
       </listPlace>
          
       
       <listPlace type="colony">
-         <place xml:id="place_saintdomingue" type="colony">
+         <place xml:id="place_saintdomingue_1" type="colony">
             <placeName>Saint-Domingue</placeName> 
          </place>
-         <place xml:id="place_nouvelleangleterre" type="colony">
+         <place xml:id="place_nouvelleangleterre_1" type="colony">
             <placeName>Nouvelle Angleterre</placeName> 
+         </place>
+         <place xml:id="place_santodomingo_1">
+            <placeName ref="geonames:3508796">Partie espagnole de Saint-Domingue</placeName>
          </place>
          
       </listPlace>
       
       
       <listPlace type="country">
-         <place xml:id="place_france" >
+         <place xml:id="place_france_1" >
             <placeName ref="wikidata:Q70972">Royaume de France</placeName>
          </place>
-         <place xml:id="place_angleterre" >
+         <place xml:id="place_angleterre_1" >
             <placeName ref="wikidata:Q179876">Royaume d'Angleterre</placeName>
          </place>
-         <place xml:id="place_provincesunies" >
+         <place xml:id="place_provincesunies_1" >
             <placeName ref="wikidata:Q170072">Provinces Unies</placeName>
-         </place>
-         <place xml:id="place_santodomingo">
-         <placeName ref="geonames:3508796">Partie espagnole de Saint-Domingue</placeName>
          </place>
       </listPlace>
       </body>

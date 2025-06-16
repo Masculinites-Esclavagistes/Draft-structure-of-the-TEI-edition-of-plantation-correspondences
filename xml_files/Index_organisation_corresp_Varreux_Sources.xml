@@ -123,23 +123,19 @@
    </teiHeader>
    <text>
       <body>
-         <listOrg type ="prison">
+         <listOrg>
             <org xml:id="org_prisonbordeaux">
-               <orgName>prison de Bordeaux</orgName><!-- Pour la prison je dirais que c'est plutôt un orgName non ? c'est une "institution" on peut préciser ensuite type "prison" et "justice" pour les institutions judiciaires et "police" pour les policières ?--> 
+               <orgName>prison de Bordeaux</orgName> 
             </org>
-         </listOrg>
-         <listOrg type="government">
+        
             <org xml:id="org_secretariatetatmarine">
                <orgName>Secrétariat d'Etat à la Marine</orgName>
             </org>
-         </listOrg>
-         <listOrg type="justice">
-            <org></org>
-         </listOrg>
-         <listOrg type="army">
+         
             <org xml:id="org_milice">
                <orgName>Milice</orgName>
             </org>
+            
          </listOrg>
       </body>
    </text>

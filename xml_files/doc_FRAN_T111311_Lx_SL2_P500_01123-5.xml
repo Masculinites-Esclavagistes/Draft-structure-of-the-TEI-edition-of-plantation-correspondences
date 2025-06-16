@@ -84,23 +84,7 @@
                   <idno type="shelfmark">T//1113/11--</idno>
                   <idno type="piece">pièce 500</idno>
                </msIdentifier>
-               
-               
-               <history>
-                  <origin>
-                     <origDate>
-                        <date type="beginning" when="1790"></date>
-                        <date type="end" when="1790">----</date>
-                     </origDate>
-                  </origin>
-               </history>
-               
-               <msContents>
-                  <msItem>
-                     <locus from="--00" to="--00"/>
-                     <p>--Description--du--doc--</p>
-                  </msItem>
-               </msContents>
+              
                
             </msDesc>
          </sourceDesc>
@@ -150,10 +134,7 @@
                <date when="YYYY-MM-DD">Date de la réponse au courrier</date>
             </correspAction>-->
          </correspDesc>
-         
-         <creation>
-            <date type="type" when="2025-06-05"/>
-         </creation>
+        
          
          <textClass>
             <keywords scheme ="Nom_du_référentiel">

@@ -81,7 +81,7 @@
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="YYYY-MM-DD"/> <!-- Date à compléter -->
+            <date when="2025-06-12"/> <!-- Date à compléter -->
          </publicationStmt>
          
          <sourceDesc>
@@ -90,11 +90,11 @@
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <institution>AN</institution>
-                  <repository>Archives privées</repository>
-                  <collection>T</collection>
+                  <repository>Caran</repository>
+                  <collection>T- Archives privées</collection>
                </msIdentifier>
                
-               <!--<additional> <!-- Lien vers l'ensemble de la collection d'archives en ligne sur le site des Archives ->
+               <!--<additional Lien vers l'ensemble de la collection d'archives en ligne sur le site des Archives 
                   <surrogates>
                      <bibl>
                         <ref type="archive_collection_website" target="https://recherche-anom.culture.gouv.fr/ark:/61561/wz818ikq"/>

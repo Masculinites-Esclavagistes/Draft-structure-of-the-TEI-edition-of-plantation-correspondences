@@ -77,7 +77,7 @@
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="YYYY-MM-DD"/> <!-- Date à compléter -->
+            <date when="2025-06-12"/> <!-- Date à compléter -->
          </publicationStmt>
          
          <sourceDesc>
@@ -86,10 +86,11 @@
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <institution>AN</institution>
-                  <repository>Archives privées</repository>
-                  <collection>T//586</collection>
+                  <repository>Caran</repository>
+                  <collection>T - Archives privées//586</collection>
                   <altIdentifier>
-                     <idno>liasse 14 - côte O</idno>
+                     <idno type="shelfmark">T//586</idno>
+                     <idno type="bundle">liasse 14 - côte O</idno>
                   </altIdentifier>
                </msIdentifier>
                
@@ -101,25 +102,7 @@
                   </surrogates>
                </additional>-->
                
-               <history>
-                  <origin>
-                     <origDate> <!-- Compléter l'étendue chronologique du dossier-->
-                        <date type="beginning" when="17--"/>
-                        <date type="end" when="17--"/>
-                     </origDate>
-                  </origin>
-               </history>
-               
-               <msContents> <!-- Surement pas utile car détail des pièces fournis dans le fichier TEI des documents en question -->
-                  <msItem>
-                     <locus from="--00" to="--00"/>
-                     <p>--Description--du--doc--</p>
-                  </msItem>
-                  <msItem>
-                     <locus from="--00" to="--00"/>
-                     <p>--Description--du--doc--</p>
-                  </msItem>
-               </msContents>
+
                
             </msDesc>
          </sourceDesc>
@@ -152,9 +135,6 @@
       </encodingDesc>
       
       <profileDesc>
-         <creation>
-            <date type="type" when="YYYY-MM-DD"/>
-         </creation>
          <textClass>
             <keywords scheme ="Nom_du_référentiel">
                <list>
@@ -166,9 +146,9 @@
       </profileDesc>
       
       <revisionDesc>
-         <change when="YYYY-MM-DD">
-            <persName ref="#code_personne_à_changer--"/>
-            <p>Ce qui a été changé</p>
+         <change when="2025-06-12">
+            <persName ref="#MP"/>
+            <p>Création du fichier TEI P5.</p>
          </change>
       </revisionDesc>
       

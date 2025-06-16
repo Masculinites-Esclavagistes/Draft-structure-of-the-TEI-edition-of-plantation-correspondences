@@ -147,7 +147,7 @@
                   <persName>Negre vallet</persName>
                   <gender>Male</gender>
                   <note type="statut">esclavisé</note><!-- esclave serait plus générique pour les hommes et les femmes. Mais si on veut un code qui respecte nos choix de vocabulaire... -->
-                  <occupation>Valet <persName ref="#pers_masse_1">du sieur Massé</persName></occupation>
+                  <occupation>Valet <rs type="person" ref="#pers_masse_1">du sieur Massé</rs></occupation>
                </person>
                <person xml:id="pers_rohan_1">
                   <persName ref="wikidata:Q732718">M. Le ch^er De Rohan</persName>
@@ -216,7 +216,7 @@
                   <occupation>marchand ?</occupation>
                   <note></note>
                </person>
-               <person xml:id="pers_demery_1">
+               <person xml:id="pers_ennery_1">
                   <persName>Monsieur Demery</persName>
                </person>
                <person xml:id="pers_oge_1">
@@ -230,8 +230,11 @@
          
          
             <listPerson type="group">
-               <personGrp xml:id="grp_esclavises_plantations">
-                  <persName>Esclavisé·es des plantations <placeName ref="#place_varreux"> des Varreux</placeName> et <placeName ref="#place_sources">des Sources</placeName></persName>
+               <personGrp xml:id="grp_esclaves_plantations_varreux">
+                  <persName>Esclavisé·es des plantations <placeName ref="#place_varreux"> des Varreux</placeName></persName>
+               </personGrp>
+               <personGrp xml:id="grp_esclaves_plantations_sources">
+                  <persName>Esclavisé·es des plantations <placeName ref="#place_sources">des Sources</placeName></persName>
                </personGrp>
                <personGrp xml:id="grp_proprietaires_plantations">
                   <persName>Propriétaires des plantations <placeName ref="#place_varreux"> des Varreux</placeName> et <placeName ref="#place_sources">des Sources</placeName>
