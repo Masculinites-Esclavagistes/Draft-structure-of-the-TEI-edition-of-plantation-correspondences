@@ -121,13 +121,13 @@
             <correspAction type="sent">
                <persName ref="#pers_mosneron_1">Joseph Mosneron</persName>
                <!--<orgName ref=""></orgName>-->
-               <placeName ref="#place_nantes">Nantes</placeName>
+               <placeName ref="#place_nantes_1">Nantes</placeName>
                <date when="1790-12-28">28 décembre 1790</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pers_rochefoucauld_1">Monsieur le marquis de la Rochefoucauld Baÿers</persName>
                <!--<orgName ref=""> Nom de l'institution destinataire</orgName>-->
-               <placeName ref="#place_hotelvaugirard">en son hôtel rue Vaugirard, Paris</placeName>
+               <placeName ref="#place_hotelvaugirard_1">en son hôtel rue Vaugirard, Paris</placeName>
                <!--<date when="YYYY-MM-DD">Date de la réception du courrier</date>-->
             </correspAction>
             <!--<correspAction type="answered">
@@ -163,19 +163,19 @@
             </salute>
          </opener>
          <p> Je M'empresse de Vous faire Part de la Nouvelle qui a été<lb/>
-            apportée Par la frégate La Capricieuse qui a quitté la <placeName ref="#place_saintdomingue">Colonie</placeName> vers–<lb/>
-            le <date when="1790-11-20">20 de Novembre</date> &amp; arrivée à <placeName ref="#place_rochefort">Rochefort</placeName>: il passoit pour Certain<lb/>
-            avant son départ de <placeName ref="#place_saintdomingue">s^t Domingue</placeName> que le Nommé <persName ref="#pers_oge_1">Vincent ogé</persName> qui<lb/>
+            apportée Par la frégate La Capricieuse qui a quitté la <placeName ref="#place_saintdomingue_1">Colonie</placeName> vers–<lb/>
+            le <date when="1790-11-20">20 de Novembre</date> &amp; arrivée à <placeName ref="#place_rochefort_1">Rochefort</placeName>: il passoit pour Certain<lb/>
+            avant son départ de <placeName ref="#place_saintdomingue_1">s^t Domingue</placeName> que le Nommé <persName ref="#pers_oge_1">Vincent ogé</persName> qui<lb/>
             S'étoit mis à La tête d'une horde de gens de Couleur après avoir<lb/>
             été défait, avoit été Contraint de fuir avec une Trentaine des–<lb/>
-            siens dans <placeName ref="#place_santodomingo">Partie espagnole</placeName>, est Tombé ensuite entre les Mains<lb/>
+            siens dans <placeName ref="#place_santodomingo_1">Partie espagnole</placeName>, est Tombé ensuite entre les Mains<lb/>
             des <persName ref="#grp_français">français</persName> qui se Disposoient à lui faire subir Le –<lb/>
             Châtiment qu'il méritoit. Ce <persName ref="pers_oge_1">Chef</persName> pris promettoit le –<lb/></p>
          
          <p>500<lb/></p>
           
          <pb n="2" facs="FRAN_T111311_Lx_SL2_P500_01124.jpg"/>
-         <p>Rétablissement du Calme dans la <placeName ref="#place_saintdomingue">Colonie</placeName> Concernant les Craintes<lb/>
+         <p>Rétablissement du Calme dans la <placeName ref="#place_saintdomingue_1">Colonie</placeName> Concernant les Craintes<lb/>
             qu'avoient occasionnés les Mulâtres<lb/></p>
 <closer> 
    <salute>
@@ -186,7 +186,7 @@
    Je suis avec Respect,<lb/>
    <persName ref="#pers_rochefoucauld_1">Monsieur</persName>,<lb/>
    Votre très humble &amp;<lb/>
-   <placeName ref="place_nantes">Nantes</placeName> le <date when="1790-12-28">28. X^bre 1790</date>.<lb/>
+   <placeName ref="place_nantes_1">Nantes</placeName> le <date when="1790-12-28">28. X^bre 1790</date>.<lb/>
    très obeissant serviteur.<lb/>
    </salute>
    <signed><persName ref="#pers_mosneron_1">Joseph Momeron</persName></signed>
@@ -197,8 +197,8 @@
          <persName ref="#pers_rochefoucauld_1">A Monsieur</persName>
       <persName ref="#pers_rochefoucauld_1">Monsieur Ch. de la rochefoucaud</persName>
        Marechal des camps et armées du roi
-       a son <placeName ref="#place_hotelvaugirard">hôtel rüe vaugirard</placeName> près le théatre françois
-       à <placeName ref="#place_paris">Paris</placeName>
+       a son <placeName ref="#place_hotelvaugirard_1">hôtel rüe vaugirard</placeName> près le théatre françois
+       à <placeName ref="#place_paris_1">Paris</placeName>
      </salute>
         </closer>
          

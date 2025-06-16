@@ -141,7 +141,7 @@
             <correspAction type="sent">
                <persName ref="#pers_robion_1">Robion</persName>
                <!--<orgName ref=""> Nom de l'institution rédactrice</orgName>-->
-               <placeName ref="#place_culdesac">Cul de Sac</placeName>
+               <placeName ref="#place_culdesac_1">Cul de Sac</placeName>
                <date when="1777-01-10">10 janvier 1777</date>
             </correspAction>
             <correspAction type="received">
@@ -184,8 +184,8 @@
            <salute><persName ref="#pers_rochefoucauld_1">Monsieur</persName>,</salute>
         </opener>
         <p>
-           Je suis enfin au comble de mes desirs. je suis en possession devos <rs type="placeGrp" ref="#place_sources #place_varreux">habitations</rs> Depuis<lb/>
-           Le <date when="1777-01-01">1^er</date> de ce mois, <placeName ref="#pers_provenchere">m^r Provenchere</placeName> qui part pour <placeName ref="#place_france">france</placeName> à la fin du mois ⎯<lb/>
+           Je suis enfin au comble de mes desirs. je suis en possession devos <rs type="placeGrp" ref="#place_sources_1 #place_varreux_1">habitations</rs> Depuis<lb/>
+           Le <date when="1777-01-01">1^er</date> de ce mois, <placeName ref="#pers_provenchere">m^r Provenchere</placeName> qui part pour <placeName ref="#place_france_1">france</placeName> à la fin du mois ⎯<lb/>
            prochain vous remettre a lui même⎀ que nous avons faits en présence<lb/>
            l'inventaire<lb/>
            Deux temoins, vous ÿ verrés l'etat actuel devos biens, je vais faire mon⎯<lb/>
@@ -197,22 +197,22 @@
            ma reconnoissance.<lb/></p>
          <p>Jai l'honneur de vous donner avis, monsieur, que jai arreté fret<lb/>
             pour vôtre compte, &amp; celui de <persName ref="#pers_brienne_1">monsieur le m^al</persName> de quarante milliers<lb/>
-            De sucre Brut sur le navire la vénus de <placeName ref="#place_nantes">nantes</placeName> cap^e <persName ref="#pers_boitard_1">Boitard</persName> qui<lb/>
-            partira pour <placeName ref="#place_france">france</placeName> à la fin de f^er ou dans les prémiers jours de<lb/>
+            De sucre Brut sur le navire la vénus de <placeName ref="#place_nantes_1">nantes</placeName> cap^e <persName ref="#pers_boitard_1">Boitard</persName> qui<lb/>
+            partira pour <placeName ref="#place_france_1">france</placeName> à la fin de f^er ou dans les prémiers jours de<lb/>
             mars; jai freté dans ce navire à 8 deniers par livre.<lb/>
             je vais faire mon possible pour vous faire passer le plus de fonds que je<lb/>
             pourrai au commencement de cette année, je présume que les<lb/>
-            sucres de la primeur seront bien vendüs en <placeName ref="#place_france">france</placeName>, le sucre Brut<lb/>
+            sucres de la primeur seront bien vendüs en <placeName ref="#place_france_1">france</placeName>, le sucre Brut<lb/>
             vaut maintenant icy 40^lt le %. Jai vendû ces jours derniers<lb/>
             <persName ref="#pers_rochefoucauld_1">Monsieur le m^is Delarochefoucauld Baÿers</persName>.<lb/></p>
          <pb n="2" facs="FRAN_T11139_L17_SLfreres_Px_00379.jpg"/>
-         <p>quatorze Barique de vôtre <persName ref="#place_sources">habitation des sources</persName> a ce prix; je crois ,monsieur<lb/>
+         <p>quatorze Barique de vôtre <persName ref="#place_sources_1">habitation des sources</persName> a ce prix; je crois ,monsieur<lb/>
             qu'il Est plus avantageux pour vous De rouler en Brut sur vos deux hõns<lb/>
             tant que cette d'enrée se soutiendra, il ÿ a même apparence d'augmentation, &amp; jaurois<lb/>
             parier q'uelle vaudra 44. &amp; 45^lt Le %. au mois d'avril , <persName ref="#pers_provenchere_1">m^r Provenchere</persName> me<lb/>
             conseille. Derouler en Brut ce que je vais faire. jeserai toujours a même<lb/>
             de faire du sucre Blanc lors que je voudrai, je suis<lb/>
-            sur les <rs type="placeGrp" ref="#place_sources #place_varreux">Deux hõns</rs>: je ne compte rouler sur l'<placeName ref="#place_varreux">habitation des Sources</placeName><lb/>
+            sur les <rs type="placeGrp" ref="#place_sources_1 #place_varreux_1">Deux hõns</rs>: je ne compte rouler sur l'<placeName ref="#place_varreux_1">habitation des Sources</placeName><lb/>
             que vers; le <date when="1777-02-15">15^e de f^er</date> jesuis maintenant a faire remonter mon équipage<lb/>
             qui menaceoit ruine depuis quelques tems cette reparation etoit trés<lb/>
             essentielle, il faut au moins un mois pour laisser secher La maconnerie<lb/>
@@ -220,13 +220,13 @@
             que Je vous annonce ci Dessus. j'attends lemois prochain le navire le<lb/>
             navire le m^is. De Brancas Cap^e <persName ref="#pers_gaudin_1">Gaudin</persName> qui m'apporte des pots, &amp;<lb/>
             formes, <persName ref="#pers_charet_1">m^e charet</persName> nous en a deja donné avis il ÿa quelques tems, Ce<lb/>
-            navire vient avec une chatre partie signé de <placeName ref="#place_france">france</placeName>, je présume<lb/>
+            navire vient avec une chatre partie signé de <placeName ref="#place_france_1">france</placeName>, je présume<lb/>
             qu'elle sera au moins de cinquante milliers, je vais m'occuper<lb/>
             Bientôt de ce chargement; si cependant, je puis vous enfaire un<lb/>
             avant celui là soyez persuadez que je le ferai. <persName ref="#pers_provenchere_1">m^e Provenchere</persName><lb/>
             me laisse quelques dettes à payer. je tacherai aussi de<lb/>
             faire honneur à ses engagements.<lb/></p>
-         <p>Les Dix derniers <persName ref="#grp_esclaves_plantations"> negres</persName> acheté en <date when="1776-12-01">x^bre</date> seportent bien, &amp; paroissent<lb/>
+         <p>Les Dix derniers <persName ref="#grp_esclaves_plantation_varreux #grp_esclaves_plantation_sources"> negres</persName> acheté en <date when="1776-12-01">x^bre</date> seportent bien, &amp; paroissent<lb/>
             se porter avec zele au travail, je serai a ce que je crois assez heureux<lb/>
             pour les rechaper, Comptets que j'en aurai tout lesoin possible, &amp;<lb/>
             qu'ils ne manqueront derien. Le sd Est maintenant a Bon marché<lb/>
@@ -236,13 +236,13 @@
             La recolte en x^bre dernier, jesuis persuadé que vous aurés apeine deux milliers<lb/>
             de caffés, <persName ref="#pers_provenchere_1">m^r Provenchere</persName> qui voit combien la terre Est ingrate dans<lb/>
             ce quartier est pres que decidé à abandonner cette culture, il me conseille<lb/>
-            de faire descendre quatre <persName ref="#grp_esclavises_plantations">negres</persName> forts, &amp; vigoureux que nous ÿ avions mis en 1775<lb/>
-            je les destine pour <placeName ref="#place_varreux">l'hõn: des varreux</placeName>. jesuis enverité au désespoir devoirque<lb/>
+            de faire descendre quatre <persName ref="#grp_esclaves_plantation_varreux #grp_esclaves_plantation_sources">negres</persName> forts, &amp; vigoureux que nous ÿ avions mis en 1775<lb/>
+            je les destine pour <placeName ref="#place_varreux_1">l'hõn: des varreux</placeName>. jesuis enverité au désespoir devoirque<lb/>
             la caffeÿere de <persName ref="#pers_rochefoucauld_2">mademoiselle felicité</persName> ne réüssisse pas mieux, jespere qu'elle<lb/>
             ne m'en voudra pas, je me vois reduit envers elle à une bonne volonté entierément<lb/>
             sterile, mais pour la consoler assurez la que je lui enverrai des<lb/>
             douceurs, &amp; que je tacherai dereparer la perte qu'elle fait.<lb/>
-            Vous savés sans doute laperte que nous venons de faire en <persName ref="#pers_demery_1">m^r Démerÿ</persName>, m^s.<lb/>
+            Vous savés sans doute laperte que nous venons de faire en <persName ref="#pers_ennery_1">m^r Démerÿ</persName>, m^s.<lb/>
             deLilancourt commandant de lapartie du nord est aujourd'hui, général<lb/>
             par interim, il et le plus ancien officier dans la colonie.<lb/>
             Veuillés je vous prie faire agrées mes respect, a <persName ref="#pers_brienne_1">monsieur Le m^al</persName> &amp; à ses<lb/>
@@ -252,7 +252,7 @@
             Vôtre très humble, &amp; trés
             obeissant serviteur.
             <signed><persName ref="#pers_robion_1">Robion</persName></signed>
-            Au<placeName ref="#place_culdesac">cul de sac</placeName> Le <date when="1777-01-10">10^e Janvier 1777</date>.※
+            Au<placeName ref="#place_culdesac_1">cul de sac</placeName> Le <date when="1777-01-10">10^e Janvier 1777</date>.※
          </closer>
          
          

@@ -114,9 +114,9 @@
       </encodingDesc>
       
       <revisionDesc>
-         <change when="YYYY-MM-DD">
-            <persName ref="#code_personne_à_changer--"/>
-            <p>Ce qui a été changé</p>
+         <change when="2025-06-12">
+            <persName ref="#MP"/>
+            <p>Création du fichier TEI P5.</p>
          </change>
       </revisionDesc>
   
@@ -156,10 +156,25 @@
                   <persName>M^r Lachapelle</persName>
                </person>
                <person xml:id="pers_choiseulpraslin_1">
-                  <persName ref="isni:0000000121020279 wikidata:Q1150721">M^r Le Duc de Praslin</persName>
+                  <persName ref="isni:0000000121020279 wikidata:Q1150721">
+                     <forename>César Gabriel</forename>
+                     <surname>Choiseul-Praslin</surname>
+                     <nameLink>de</nameLink> 
+                     <roleName>Duc de Choiseul-Praslin</roleName>
+                  </persName>
+                     
+                     <persName type="variant">M^r Le Duc de Praslin</persName>
                </person>
+               
                <person xml:id="pers_choiseul_1" >
-                  <persName ref="isni:000000012123543X wikidata:Q289149">M. Le Duc de Choÿseul</persName>
+                  <persName ref="isni:000000012123543X wikidata:Q289149">
+                     <forename>Etienne François</forename>
+                     <surname>Choiseul</surname>
+                     <nameLink>de</nameLink>
+                     <roleName >Duc de Praslin</roleName>
+                  </persName>
+                     
+                     <persName type="variant">M. Le Duc de Choÿseul</persName>
                </person>
                <person xml:id="pers_jaune_1">
                   <persName>Jaune gand</persName>
@@ -167,7 +182,7 @@
                </person>
                <person xml:id="pers_robion_1">
                   <persName>Charles Robion</persName>
-                  <occupation>gérant des plantations Varreux et des Sources, de <rs type="person" ref="#pers_rochefoucauld_1">La Rochefoucauld</rs></occupation>
+                  <occupation>gérant des plantations <placeName ref="#place_varreux_1">Varreux</placeName> et des <placeName ref="#place_sources_1">Sources</placeName></occupation>
                </person>
                   <person xml:id="pers_sartine_1">
                      <persName ref="isni:0000000118736671">Antoine de Sartine</persName>
@@ -197,7 +212,16 @@
                   <note>mère de <rs type="person" ref="#pers_robion_1">Robion</rs></note>
                </person>
                <person xml:id="pers_brienne_1">
-                  <persName>Hubert de Brienne-Conflans, comte de Conflans</persName>
+                  <persName ref="isni:0000 0001 0524 8978">
+                     <forename>Hubert</forename>
+                     <surname>Brienne</surname>
+                     <nameLink>de</nameLink>
+                     <roleName>comte de Conflans</roleName></persName>
+                  <occupation from="1748-08-12" to="1751-03-29">Gouverneur général de Saint-Domingue</occupation>
+                  <occupation when="1758-03-15">maréchal de France</occupation>
+                     <persName type="variant">
+                        <addName>Monsieur le maréchal</addName>
+                     </persName>
                </person>
                <person xml:id="pers_bouchet_1">
                   <persName ref="isni:0000000105248978">Marie du Bouchet</persName>
@@ -217,27 +241,45 @@
                   <note></note>
                </person>
                <person xml:id="pers_ennery_1">
-                  <persName>Monsieur Demery</persName>
+                  <occupation from="1776" to="1776">Gouverneur de Saint-Domingue</occupation>  
+                  <persName ref="isni:0000000035158669">
+                     <forename>Victor-Thérèse</forename>
+                     <surname>Charpentier</surname>
+                     <roleName>Marquis d'Ennery</roleName></persName>
+                     <persName type="variant">
+                        <addName>Monsieur Demery</addName>
+                        <addName>Monsieur Dennery</addName>
+                     </persName>
                </person>
                <person xml:id="pers_oge_1">
                   <persName ref="wikidata:Q3559780">Vincent ogé</persName>
                </person>
                <person xml:id="pers_mosneron_1">
-               <persName>Joseph Mosneron</persName>
-                  <note>négociant à <placeName ref="place_nantes">Nantes</placeName></note>
+                  <persName ref="isni:0000 0000 4261 0211">
+                     <forename>Joseph</forename>
+                     <surname>Mosneron</surname>
+                     <roleName>négociant à <placeName ref="place_nantes_1">Nantes</placeName></roleName>
+                     <roleName>sieur du Pin</roleName>
+                     <persName type="variant">
+                        <addName>Mosmeron</addName>
+                        <addName>Momeron</addName>
+                        <addName>Mosneron Dupin</addName>
+                     </persName>
+                  </persName>
+                  <note></note>
                   </person>
             </listPerson>
          
          
             <listPerson type="group">
-               <personGrp xml:id="grp_esclaves_plantations_varreux">
-                  <persName>Esclavisé·es des plantations <placeName ref="#place_varreux"> des Varreux</placeName></persName>
+               <personGrp xml:id="grp_esclaves_plantation_varreux">
+                  <persName>Esclavisé·es des plantations <placeName ref="#place_varreux_1"> des Varreux</placeName></persName>
                </personGrp>
-               <personGrp xml:id="grp_esclaves_plantations_sources">
-                  <persName>Esclavisé·es des plantations <placeName ref="#place_sources">des Sources</placeName></persName>
+               <personGrp xml:id="grp_esclaves_plantation_sources">
+                  <persName>Esclavisé·es des plantations <placeName ref="#place_sources_1">des Sources</placeName></persName>
                </personGrp>
                <personGrp xml:id="grp_proprietaires_plantations">
-                  <persName>Propriétaires des plantations <placeName ref="#place_varreux"> des Varreux</placeName> et <placeName ref="#place_sources">des Sources</placeName>
+                  <persName>Propriétaires des plantations <placeName ref="#place_varreux_1"> des Varreux</placeName> et <placeName ref="#place_sources_1">des Sources</placeName>
                      <rs type="personGrp" ref="#pers_rochefoucauld_1 #pers_fougeu_1 #pers_fougeu_2 #pers_brienne_1"/></persName>
                </personGrp>
                <personGrp xml:id="grp_anglais">

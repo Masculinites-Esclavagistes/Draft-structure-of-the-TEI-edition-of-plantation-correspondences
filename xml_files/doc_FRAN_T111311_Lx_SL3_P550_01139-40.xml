@@ -138,7 +138,7 @@
             <correspAction type="sent">
                <persName ref="#pers_jaune_1">Jaune Gand</persName>
                <!--<orgName ref=""> Nom de l'institution rédactrice</orgName>-->
-               <placeName ref="#place_bordeaux">Bordeaux</placeName>
+               <placeName ref="#place_bordeaux_1">Bordeaux</placeName>
                <date when="1769-01-24">24 janvier 1769</date> 
             </correspAction>
             <correspAction type="received">
@@ -152,9 +152,7 @@
             </correspAction>-->
          </correspDesc>
          
-         <creation>
-            <date type="type" when="YYYY-MM-DD"/>
-         </creation>
+ 
          
          <textClass>
             <keywords scheme ="Nom_du_référentiel">
@@ -179,7 +177,7 @@
       <body>
          <opener>
             <salute>
-               <placeName ref="#place_bordeaux">Bordeaux</placeName><date when="1769-01-24">24^e Janvier 1769</date>
+               <placeName ref="#place_bordeaux_1">Bordeaux</placeName><date when="1769-01-24">24^e Janvier 1769</date>
                <persName ref="#pers_rochefoucauld_1">Monsieur</persName>
             </salute>
          </opener>
@@ -187,15 +185,15 @@
             En Recevant samedy <date when="1769-01-21">21^e</date> Courant la lettre dont vous m'avez<lb/> 
             honnoré le <date when="1769-01-16">16^e</date> accompagnant une jncluse pour <persName ref="#pers_graulet_1">M. Delagraulet</persName><lb/>
             et une autre pour <persName ref="#pers_provenchere_1">M^r Provenchere</persName>, J'envoyois sur le champ<lb/>
-            Communiquer le tout a ce <persName ref="#pers_graulet_1">premier commandant</persName> au <placeName ref="#place_chateautrompette">chateau</placeName><lb/> <!-- question est-ce qu'on pourrait alléger l'identification des personnages ? A-t-on vraiment besoin d'identifier toutes les mentions d'un même perso dans une seule page ? les "Monsieur" adressé au destinataire ne sont surement pas nécessaire à identifier-->
+            Communiquer le tout a ce <persName ref="#pers_graulet_1">premier commandant</persName> au <placeName ref="#place_chateautrompette_1">chateau</placeName><lb/> <!-- question est-ce qu'on pourrait alléger l'identification des personnages ? A-t-on vraiment besoin d'identifier toutes les mentions d'un même perso dans une seule page ? les "Monsieur" adressé au destinataire ne sont surement pas nécessaire à identifier-->
             <placeName ref="#place_chateautrompette">Trompette</placeName>, et je sais que dans le moment jl fit Remettre et<lb/>
             communiquer le tout a <persName ref="#pers_provenchere_1">M^r Provenchere</persName>, et luy permit le<lb/>
-            <date when="1769-01-22">lendemain dimanche</date> d'avoir a diner avec luy dans sa <orgName ref="#place_prisonbordeaux">prison</orgName><lb/>
+            <date when="1769-01-22">lendemain dimanche</date> d'avoir a diner avec luy dans sa <placeName ref="#place_prisonbordeaux_1">prison</placeName><lb/>
             ses deux Beaufreres <persName ref="#pers_fuet_1">M^rs &amp; fuet</persName> &amp; <persName ref="#pers_souterie_1">souterie d'orleans</persName> qui sont<lb/>
             icy depuis cinq jours, je sais Encore que <date when="1769-01-23">hier lundy</date> ses<lb/>
             deux M^rs ont diné avec <persName ref="#pers_provenchere_1">M^r Provenchere</persName> ches <persName ref="#pers_graulet_1">M^r De–</persName><lb/>
             <persName ref="#pers_graulet_1">Lagraulet</persName>, qui ne veut pourtant pas Encore le laisser parler<lb/>
-            a tous ses amis de <placeName ref="#place_bordeaux">Bordeaux</placeName>, au moyen de qu'oy mon neveu<lb/>
+            a tous ses amis de <placeName ref="#place_bordeaux_1">Bordeaux</placeName>, au moyen de qu'oy mon neveu<lb/>
             le <persName ref="#pers_masse_1">sieur Massé</persName> n'a pas peu le voir mais jl m'envoye tous<lb/>
             les jours son <persName ref="#pers_valet_1">Negre vallet</persName> me donner verballement de<lb/>
             ses nouvelles, et je pense que s'il vous Ecrit aujourd'huy<lb/>
@@ -204,7 +202,7 @@
          <p>Je suis plus qu'Etonné que les <date when="1769-01-16">16^e Courant</date> le ministre n'eut<lb/>
             pas Reçü des lettres de <persName ref="#pers_rohan_1">M. Le ch^er De Rohan</persName> ce que je sais<lb/>
             de bien positif ce que le 10^e Jour que j'ay eu l'honneur de vous<lb/>
-            jnformer de l'arrivée a <placeName ref="#place_bordeaux">Bordeaux</placeName> de <persName ref="#pers_provenchere_1">M^r Provenchere</persName> <persName ref="#pers_chapelle_1">M^r</persName><lb/>
+            jnformer de l'arrivée a <placeName ref="#place_bordeaux_1">Bordeaux</placeName> de <persName ref="#pers_provenchere_1">M^r Provenchere</persName> <persName ref="#pers_chapelle_1">M^r</persName><lb/>
             <persName ref="#pers_chapelle_1">Lachapelle</persName> commandant le Navire dans lequel jl a passé<lb/>
             a Remise a la poste un pacquet adressé a <persName ref="#pers_choiseulpraslin_1">M^r Le Duc </persName>.<lb/></p>
          

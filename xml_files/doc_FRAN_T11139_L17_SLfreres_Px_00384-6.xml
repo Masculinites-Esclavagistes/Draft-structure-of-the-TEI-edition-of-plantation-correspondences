@@ -83,7 +83,7 @@
                   <institution>Archives Nationales</institution>
                   <repository>Caran</repository>
                   <collection>T - Papiers privés</collection>
-                  <idno type="shelfmark">T//1113/9--</idno>
+                  <idno type="shelfmark">T//1113/9</idno>
                   <idno type="bundle">17</idno>
                </msIdentifier>
                
@@ -97,11 +97,6 @@
                   </origin>
                </history>-->
                
-               <msContents>
-                  <msItem>
-                     <locus from="--00" to="--00"/>
-                  </msItem>
-               </msContents>
                
             </msDesc>
          </sourceDesc>
@@ -136,25 +131,20 @@
       <profileDesc>
          <correspDesc corresp="code_corresp">
             <correspAction type="sent">
-               <persName ref="#p13">Robion</persName>
-               <orgName ref="--#id5"> Nom de l'institution rédactrice</orgName>
-               <placeName ref="#s1">Cul de Sac</placeName>
+               <persName ref="#pers_robion_1">Robion</persName>
+               <placeName ref="#place_culdesac_1">Cul de Sac</placeName>
                <date when="1778-12-24">24 décembre 1778</date> <!-- Tu avais confondu date d'envoi/rédaction et date de réception -->
             </correspAction>
             <correspAction type="received">
-               <persName ref="#p1">M. le marquis de la Rochefoucauld</persName>
-               <orgName ref="--#id5"> Nom de l'institution destinataire</orgName>
-               <placeName ref="--#id4">Lieu de réception du courrier si précisé</placeName>
-               <!-- <date when="YYYY-MM-DD">Date de réception</date>-->
+               <persName ref="#pers_rochefoucauld_1">M. le marquis de la Rochefoucauld</persName>
+               <!--<orgName ref="#id5"> Nom de l'institution destinataire</orgName>
+               <placeName ref="#id4">Lieu de réception du courrier si précisé</placeName>
+                <date when="YYYY-MM-DD">Date de réception</date>-->
             </correspAction>
             <!--<correspAction type="answered">
                <date when="YYYY-MM-DD">Date de la réponse au courrier</date>
             </correspAction>-->
          </correspDesc>
-         
-         <creation>
-            <date type="type" when="2025-06-10"/>
-         </creation>
          
          <textClass>
             <keywords scheme ="Nom_du_référentiel">
@@ -189,11 +179,11 @@
                du plaisir de vous ecrire nous n'avons point eu de convoy<lb/>
                depuis Le Commencement d'août nous sommes<lb/>
                pour ainsi dire sans ressource Comment est il possible<lb/>
-               qu'on abandonne une <placeName ref="#place_saintdomingue">Colonie </placeName>qui donne autant de<lb/>
-               revenûs à la <placeName ref="#place_france">france</placeName>, il narrive point de Navires et<lb/>
+               qu'on abandonne une <placeName ref="#place_saintdomingue_1">Colonie </placeName>qui donne autant de<lb/>
+               revenûs à la <placeName ref="#place_france_1">france</placeName>, il narrive point de Navires et<lb/>
                nous manquons des Besoins les plus Urgents<lb/>
                les personnes de Nous qui ont ses Biens à ⎯<lb/>
-               <placeName ref="#place_saintdomingue">S^t Domingue</placeName> devroient bien faire des répresentations<lb/>
+               <placeName ref="#place_saintdomingue_1">S^t Domingue</placeName> devroient bien faire des répresentations<lb/>
                au <persName ref="#pers_sartine_1">Ministre</persName>⎯<lb/></p>
          <p>Nous sommes pour le moment vexés par la <orgName ref="#org_milice"></orgName>Milice<lb/>
             je vais être de garde au p^e jour avec un détachement de,<lb/>
@@ -201,7 +191,7 @@
             a faire la Guerre aux Moustiques et aux ⎯<lb/>
             Maringouins–<lb/></p>
          <p><persName ref="#pers_estaing_1">M^r Destaing</persName> fait dit on des merveilles<lb/>
-            a la <placeName ref="#place_nouvelleangleterre">Nouvelle Anglettere</placeName> il s'est emparé des<lb/>
+            a la <placeName ref="#place_nouvelleangleterre_1">Nouvelle Anglettere</placeName> il s'est emparé des<lb/>
             V^aux ou Fregattes de <persName ref="#pers_howe_1">Lamiral Howe</persName>, Les français<lb/>
             sont Jaloux de réparer Les Torts de la guerre d^re<lb/></p>
          <pb n="2" facs="FRAN_T11139_L17_SLfreres_Px_00385.jpg"/>
@@ -214,7 +204,7 @@
          sommes Le principal selon moy est de Conserver<lb/>
          Le Mobilier enConséquence je vais mettre une –<lb/>
          piece de Canne de plus en patates pour secourir les<lb/>
-         <persName ref="#grp_esclavises_plantations">Negres</persName>; ces gens ont toutes les penes du monde à<lb/>
+         <persName ref="#grp_esclaves_plantation_varreux #grp_esclaves_plantation_sources">Negres</persName>; ces gens ont toutes les penes du monde à<lb/>
          avoir leur necessaire. tout devient plus rare et plus<lb/>
          cher en tems de Guerre. il faut leur fournir moyen<lb/>
          de Subsister. jose esperer que vous gouteréz mes<lb/>
@@ -227,23 +217,23 @@
             <salute><persName ref="#pers_rochefoucauld_1">Monsieur</persName><lb/>
             Votre tres humble et<lb/>
             et tres obeissent Serviteur<lb/>
-                Au <placeName ref="#place_culdesac">Cul de Sac</placeName> le <date when="1778-12-24"></date>24 X^bre 1778.<lb/></salute></closer>
+                Au <placeName ref="#place_culdesac_1">Cul de Sac</placeName> le <date when="1778-12-24"></date>24 X^bre 1778.<lb/></salute></closer>
             <signed><persName ref="#pers_robion_1">Robion</persName></signed></div>
          <div>
          <p>Les sucres sont aujourdhuy. Sans demande. Le Blanc<lb/>
              Vaut 30^ Le % Le Brut est à 10. a 12^lt le % nous n'avons<lb/>
-            aucuns Navires pour exporter nos denrées. <placeName ref="#place_saintdomingue">St Domingue</placeName><lb/>
+            aucuns Navires pour exporter nos denrées. <placeName ref="#place_saintdomingue_1">St Domingue</placeName><lb/>
             est entierement oubliée. Comment peut on nous abandonner⎯<lb/>
             ainsi ? Je viens d'etre obligé de vendre du sucre blanc a 36<lb/>
             et 30^lt Le % il faut bien payer les personnes employés<lb/>
-            Sur <rs type="placeGrp" ref="#place_varreux #place_sources">vos habitations</rs>, il faut  leur fournir Les moyens<lb/>
+            Sur <rs type="placeGrp" ref="#place_varreux_1 #place_sources_1">vos habitations</rs>, il faut  leur fournir Les moyens<lb/>
             de subsister votre intention n'est pas je Crois qu'ils manquent<lb/>
             des besoins Les plus Urgents qui sont ceux de la vie<lb/>
-            nous sommes <persName ref="#pers_rochefoucauld">Monsieur</persName> dans la plus grande Misere<lb/>
+            nous sommes <persName ref="#pers_rochefoucauld_1">Monsieur</persName> dans la plus grande Misere<lb/>
             jene sais exactement àquel Saint me voüer; il faut<lb/>
             prendre patience on nous enverra peut être a La fin quelques<lb/>
             Secours.<lb/></p>
-         <p>Le <placeName ref="#place_cap">Cap</placeName> est bloqué par un <persName ref="#grp_anglais">Escadre angloise</persName> depuis<lb/>
+         <p>Le <placeName ref="#place_cap_1">Cap</placeName> est bloqué par un <persName ref="#grp_anglais">Escadre angloise</persName> depuis<lb/>
             environ un mois, elle ne Laisse pas passer un seul N^re<lb/>
             Marchand, les Insurgents et les <persName ref="#grp_hollandais">hollandois</persName> sur<lb/>
             Lesquels nous Comptions ne frequentent nullement nos<lb/>
@@ -252,8 +242,8 @@
             nous n'avons aucuns Convoÿs le N^re Marchands<lb/>
             Vont pourrir dans Le port.<lb/></p> 
          <p> Je ne puis écrire pour aujourdhuy a <persName ref="#pers_fougeu_1">Mad. La</persName>⎯<lb/>
-            <persName ref="#pers_fougeu_1">le Marechale</persName>, cette fregatte est arrivée au <placeName ref="#place_cap">Cap</placeName> il y<lb/>
-            a 8. Jours. M. Le G^l vient d'envoyer au <placeName ref="#place_portauprince">Port au prince</placeName><lb/>
+            <persName ref="#pers_fougeu_1">le Marechale</persName>, cette fregatte est arrivée au <placeName ref="#place_cap_1">Cap</placeName> il y<lb/>
+            a 8. Jours. M. Le G^l vient d'envoyer au <placeName ref="#place_portauprince_1">Port au prince</placeName><lb/>
             un Courrier extraordinaire pour annoncer Pour six Jours<lb/>
             le depart de ce Batiment. Je ne sais, meme Si–<lb/>
             jaurois Le Tems décrire à ma famille dans⎯<lb/></p> 
@@ -270,7 +260,7 @@
                <persName ref="#pers_rochefoucauld_1">Monsieur</persName>,<lb/>
                Votre tres humble et<lb/>
                Obeissant serviteur<lb/>
-               Au <placeName ref="#place_culdesac">Cul de Sac</placeName><lb/> le <date when="1778-12-24">24 X^bre 1778</date>※<lb/>
+               Au <placeName ref="#place_culdesac_1">Cul de Sac</placeName><lb/> le <date when="1778-12-24">24 X^bre 1778</date>※<lb/>
             </salute>
          </closer></div>
                   

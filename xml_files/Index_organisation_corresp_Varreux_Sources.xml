@@ -114,9 +114,9 @@
       </encodingDesc>
       
       <revisionDesc>
-         <change when="YYYY-MM-DD">
-            <persName ref="#code_personne_à_changer--"/>
-            <p>Ce qui a été changé</p>
+         <change when="2025-06-12">
+            <persName ref="#MP"/>
+            <p>Création du fichier TEI P5.</p>
          </change>
       </revisionDesc>
       
