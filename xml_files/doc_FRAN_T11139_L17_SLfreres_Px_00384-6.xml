@@ -7,7 +7,7 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Lettre de <persName ref='#p13'> Charles Robion</persName> et le <persName ref="#p1">Marquis de la Rochefoucault</persName> à propos du contexte de la Guerre d'indépendance américaine à <placeName ref="#col1">Saint-Domingue</placeName></title>
+            <title>Lettre de <persName ref='#pers_robion_1'> Charles Robion</persName> et le <persName ref="#pers_rochefoucauld_1">Marquis de la Rochefoucauld</persName> à propos du contexte de la Guerre d'indépendance américaine à <placeName ref="#place_saintdomingue_1">Saint-Domingue</placeName></title>
             <respStmt>
                <resp>Direction du projet MEGV</resp>
                <persName xml:id="MH">
@@ -243,7 +243,7 @@
             Vont pourrir dans Le port.<lb/></p> 
          <p> Je ne puis écrire pour aujourdhuy a <persName ref="#pers_fougeu_1">Mad. La</persName>⎯<lb/>
             <persName ref="#pers_fougeu_1">le Marechale</persName>, cette fregatte est arrivée au <placeName ref="#place_cap_1">Cap</placeName> il y<lb/>
-            a 8. Jours. M. Le G^l vient d'envoyer au <placeName ref="#place_portauprince_1">Port au prince</placeName><lb/>
+            a <date when="1778-12-16">8. Jours</date>. M. Le G^l vient d'envoyer au <placeName ref="#place_portauprince_1">Port au prince</placeName><lb/>
             un Courrier extraordinaire pour annoncer Pour six Jours<lb/>
             le depart de ce Batiment. Je ne sais, meme Si–<lb/>
             jaurois Le Tems décrire à ma famille dans⎯<lb/></p> 
