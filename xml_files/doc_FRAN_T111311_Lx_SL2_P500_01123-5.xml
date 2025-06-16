@@ -70,7 +70,7 @@
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="2023-11-24"/>
+            <date when="2025-06-12"/>
          </publicationStmt>
          
          <sourceDesc>
@@ -79,8 +79,8 @@
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <institution>Archives Nationales</institution>
-                  <repository>Papiers privés</repository>
-                  <collection>T</collection>
+                  <repository>Caran</repository>
+                  <collection>T - Papiers privés</collection>
                   <idno type="shelfmark">T//1113/11--</idno>
                   <idno type="piece">pièce 500</idno>
                </msIdentifier>
@@ -108,7 +108,7 @@
       
       <encodingDesc>
          <projectDesc>
-            <p>Ce corpus numérique s'incrit dans le cadre du projet SETAF, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
+            <p>Ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -127,7 +127,7 @@
          <appInfo>
             <application ident="FoNDUE" version="0.1">
                <label>FoNDUE</label>
-               <ptr target="https://test2.fondue.unige.ch"/>
+               <ptr target="https://test2.fondue.unige.ch/"/>
             </application>
          </appInfo>
       </encodingDesc>
@@ -166,9 +166,9 @@
       </profileDesc>
       
       <revisionDesc>
-         <change when="YYYY-MM-DD">
-            <persName ref="#code_personne_à_changer--"/>
-            <p>Ce qui a été changé</p>
+         <change when="2025-06-12">
+            <persName ref="#MP"/>
+            <p>Création du fichier TEI P5.</p>
          </change>
       </revisionDesc>
       
