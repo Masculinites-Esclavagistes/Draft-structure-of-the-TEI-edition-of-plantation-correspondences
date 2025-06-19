@@ -156,7 +156,7 @@
          
          
       <listPlace type="building">
-         <place xml:id="place_chateautrompette_1" ><!-- J'ai corrigé comme si on avait décidé que c'était un placeName de type "batiment" mais c'est à changer / simplifier. Le code serait "pl" pour distinguer de PersName ?--> 
+         <place xml:id="place_chateautrompette_1" > 
             <placeName ref="geonames:12166088">château Trompette</placeName>
          </place>
          <place xml:id="place_hotelvaugirard_1">

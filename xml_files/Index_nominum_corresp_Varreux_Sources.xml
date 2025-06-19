@@ -143,7 +143,7 @@
                   <persName>sieur Massé</persName>
                   <note> neveu de <persName ref="#pers_robion_1">Charles Robion</persName></note>
                </person>
-               <person xml:id="pers_valet_1"> <!-- pour les esclavisés il serait bien peut-être qu'on les identifie à leur maître pour les repérer mieux, sinon on risque de les confondre. Notre effort d'annotation dans les index nominum pourrait être fait sur ces personnages qui n'ont pas de wikidata, isni... -->
+               <person xml:id="pers_valet_1"> <!-- pour les esclavisés il serait bien peut-être qu'on les identifie à leur maître pour les repérer mieux, sinon on risque de les confondre. Notre effort d'annotation dans les index nominum pourrait être fait sur les personnages qui n'ont pas de wikidata, isni... -->
                   <persName>Negre vallet</persName>
                   <gender>Male</gender>
                   <note type="statut">esclavisé</note><!-- esclave serait plus générique pour les hommes et les femmes. Mais si on veut un code qui respecte nos choix de vocabulaire... -->
