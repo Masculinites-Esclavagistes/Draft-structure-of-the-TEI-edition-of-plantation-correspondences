@@ -139,4 +139,8 @@
    <xi:include href="dossier_corresp_MRFougeu.xml"/> <!-- Correspondance reçue par Marie Rose Fougeu-->
    <xi:include href="dossier_corresp_Rochefoucauld.xml"/> <!-- Correspondance reçue par le marquis de la Rochefoucauld-->
    
+   <!-- Inclusion des fichiers d'index pour l'ensemble du corpus-->
+   <xi:include href="Index_locorum_corresp_Varreux_Sources.xml"/>
+   <xi:include href="Index_nominum_corresp_Varreux_Sources.xml"/>
+   <xi:include href="Index_organisation_corresp_Varreux_Sources.xml"/>
 </teiCorpus>
