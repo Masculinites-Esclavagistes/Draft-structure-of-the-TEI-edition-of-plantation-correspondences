@@ -9,7 +9,7 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Correspondance reçue par <persName ref="#p1">le marquis de la Rochefoucauld</persName> au sujet des habitations Varreux et des Sources à Saint-Domingue</title> <!--Titre de la correspondance à remplir ici : à distinguer par la personne qui a conservé la correspondance / personne qui est en général le destinataire de la correspondance -->
+            <title xml:id="corresp_rochefoucauld">Correspondance reçue par <persName ref="#pers_rochefoucauld_1">le marquis de la Rochefoucauld</persName> au sujet des habitations Varreux et des Sources à Saint-Domingue</title> <!--Titre de la correspondance à remplir ici : à distinguer par la personne qui a conservé la correspondance / personne qui est en général le destinataire de la correspondance -->
             <respStmt> <!-- Responsabilités dans l'édition de ce dossier individuel : qui a fait quoi ?-->
                <resp>Direction du projet MEGV</resp>
                <persName xml:id="MH">

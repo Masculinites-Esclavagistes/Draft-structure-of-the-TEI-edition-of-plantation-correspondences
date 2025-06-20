@@ -123,10 +123,64 @@
    </teiHeader>
    <text>
       <body>
+                  
             <listPerson type="individual">
+               
                <person xml:id="pers_rochefoucauld_1">
-                  <persName ref="wikidata:Q116666799">M. Le M^is De la Rochefoucault Bayers</persName>
+                  <listBibl>
+                     <bibl xml:id="source_corpus">Corpus de correspondance Marie Thérèse Fougeu - La Rochefoucauld</bibl>
+                     <bibl xml:id="recherche_secondaire"></bibl><!-- mettre ici autres sources (recherches dans bibliographie) -->
+                  </listBibl>
+                  
+                  <!-- NOM PRINCIPAL-->
+                  <persName source="#wikidata" resp="#MP">
+                     <forename>Jean Charles François</forename>
+                     <surname>Rochefoucauld</surname>
+                     <nameLink>de la</nameLink>
+                  </persName>
+                  
+                  <!-- VARIANTES DANS CORPUS -->
+                  <persName type="variant" source="#source_corpus">M. Le M^is De la Rochefoucault Bayers</persName>
+                  
+                  <!-- GENRE-->
+                  <gender>M</gender>
+                  
+                  <!-- STATUT JURIDIQUE-->
+                  <note type="legal_status" resp="#MP">libre</note>
+                  
+                  <!--QUALITE, ETAT-->
+                  <socecStatus type="title">marquis de Baÿers</socecStatus>
+                  <socecStatus type="title" source="geneanet">marquis de Momont</socecStatus>
+                  <socecStatus type="quality">noble</socecStatus> <!-- à coder : noble, bourgeois-->
+                  
+                  <!-- OCCUPATION, METIER-->
+                  <occupation></occupation>
+                  
+                  <!-- AGE-->
+                  <age when="1725-05-20">1</age> <!-- possibilité de noter la date de naissance? <birth>-->
+                  <birth when="1724-05-20" source="geneanet">20 mai 1724</birth>
+                  
+                  <!-- STATUT FAMILIAL-->
+                  <state xml:id="married" type="civil">
+                     <desc>marié</desc>
+                  </state>
+                  
+                  <!--LIENS DE PARENTE ou DEPENDANCE-->
+                  <note type="kinship" source="#source_corpus">père de <rs ref="#pers_rochefoucauld_2">Mlle de la Rochefoucauld</rs></note>
+                  
+                  <!--LIEU HABITATION CORPUS-->
+                  <residence source="#source_corpus">
+                     <placeName ref="place_hotelvaugirard_1">hôtel Vaugirard</placeName>
+                  </residence>
+                  
+                  <!-- LIENS EXTERIEURS (Wikidata, Isni)-->
+                  <idno type="wikidata">Q116666799</idno>
+                  
+                  <!-- NOTES INTERPRETATIVES ou CRITIQUES-->
+                  <note type="editorial" source="#recherche_secondaire">
+                  </note>
                </person>
+               
                <person xml:id="pers_graulet_1">
                   <persName>M. Delagraulet</persName>
                </person>
@@ -258,7 +312,7 @@
                   <persName ref="isni:0000 0000 4261 0211">
                      <forename>Joseph</forename>
                      <surname>Mosneron</surname>
-                     <roleName>négociant à <placeName ref="place_nantes_1">Nantes</placeName></roleName>
+                     <occupation>négociant à <placeName ref="place_nantes_1">Nantes</placeName></occupation>
                      <roleName>sieur du Pin</roleName>
                      <persName type="variant">
                         <addName>Mosmeron</addName>

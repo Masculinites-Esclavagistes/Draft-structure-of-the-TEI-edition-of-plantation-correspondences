@@ -8,7 +8,7 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Correspondance d'<persName ref="#p21">Hubert de Brienne-Conflans</persName>reçue par <persName ref="#p17">Marie Rose Fougeu</persName> et <persName ref="#p22">Marie du Bouchet</persName>sa mère</title> <!--Titre de la correspondance à remplir ici : à distinguer par la personne qui a conservé la correspondance / personne qui est en général le destinataire de la correspondance -->
+            <title xml:id="corresp_brienne">Correspondance d'<persName ref="#pers_brienne_1">Hubert de Brienne-Conflans</persName>reçue par <persName ref="#pers_fougeu_1">Marie Rose Fougeu</persName> et <persName ref="#pers_bouchet_1">Marie du Bouchet</persName>sa mère</title> <!--Titre de la correspondance à remplir ici : à distinguer par la personne qui a conservé la correspondance / personne qui est en général le destinataire de la correspondance -->
             <respStmt> <!-- Responsabilités dans l'édition de ce dossier individuel : qui a fait quoi ?-->
                <resp>Direction du projet MEGV</resp>
                <persName xml:id="MH">
