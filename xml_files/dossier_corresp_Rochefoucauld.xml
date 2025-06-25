@@ -8,9 +8,11 @@
    <teiHeader>
       
       <fileDesc>
+         <!-- Titre du dossier-->
          <titleStmt>
             <title xml:id="corresp_rochefoucauld">Correspondance reçue par <persName ref="#pers_rochefoucauld_1">le marquis de la Rochefoucauld</persName> au sujet des habitations Varreux et des Sources à Saint-Domingue</title> <!--Titre de la correspondance à remplir ici : à distinguer par la personne qui a conservé la correspondance / personne qui est en général le destinataire de la correspondance -->
-            <respStmt> <!-- Responsabilités dans l'édition de ce dossier individuel : qui a fait quoi ?-->
+           
+            <respStmt> <!-- Responsabilités dans l'édition-->
                <resp>Direction du projet MEGV</resp>
                <persName xml:id="MH">
                   <forename>Marie</forename>
@@ -59,11 +61,13 @@
             </respStmt>
          </titleStmt>
          
-         <extent> <!-- Estimation du volume du dossier : nombre de fascimilés numériques contenus dans le dossier : n="" à remplir -->
+         <!-- Estimation du volume du dossier : nombre de fascimilés numériques contenus dans le dossier : n="" à remplir -->
+         <extent> 
             <measure unit="total_images" n="---"/> 
          </extent>
          
-         <publicationStmt> <!-- Définition du projet, institutions, financements, licence-->
+         <!-- Définition du projet, institutions, financements, licence-->
+         <publicationStmt> 
             <publisher>Projet MEGV</publisher>
             <authority>Université de Genève</authority>
             <address>
@@ -81,12 +85,13 @@
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="YYYY-MM-DD"/> <!-- Date à compléter -->
+            <date when="2025-06-12"/>
          </publicationStmt>
          
+         <!-- Présentation fonds d'archive du dossier -->
          <sourceDesc>
             <msDesc>
-               <msIdentifier><!-- Identification de la source du document : quel fonds d'archives, quelle cote ? -->
+               <msIdentifier>
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <institution>AN</institution>
@@ -96,7 +101,7 @@
                   <collection>T//1113/11</collection>
                </msIdentifier>
                
-               <!--<additional> <!-- Lien vers l'ensemble de la collection d'archives en ligne sur le site des Archives ->
+               <!--<additional> <!Lien vers l'ensemble de la collection d'archives en ligne sur le site des Archives ->
                   <surrogates>
                      <bibl>
                         <ref type="archive_collection_website" target="https://recherche-anom.culture.gouv.fr/ark:/61561/wz818ikq"/>
@@ -104,61 +109,40 @@
                   </surrogates>
                </additional>-->
                
-               <history>
-                  <origin>
-                     <origDate> <!-- Compléter l'étendue chronologique du dossier-->
-                        <date type="beginning" when="17--"/>
-                        <date type="end" when="17--"/>
-                     </origDate>
-                  </origin>
-               </history>
-               
-               <!--<msContents> <!-- Surement pas utile car détail des pièces fournis dans le fichier TEI des documents en question ->
-                  <msItem>
-                     <locus from="--00" to="--00"/>
-                     <p>--Description--du--doc--</p>
-                  </msItem>
-                  <msItem>
-                     <locus from="--00" to="--00"/>
-                     <p>--Description--du--doc--</p>
-                  </msItem>
-               </msContents>-->
                
             </msDesc>
          </sourceDesc>
       </fileDesc>
       
+      <!-- Informations sur le projet d'édition critique de MEGV : règles de transcription, d'encodage, outils utilisés-->
       <encodingDesc>
          <projectDesc>
             <p>L'édition de ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS. Il a été facilité par la signature d'une convention entre le projet MEGV et les ANOM en décembre 2024.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target=www.google.fr--/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
+               <p>Vous trouverez les règles de transcription du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>. La segmentation et l'OCR ont été réalisés automatiquement puis corrigés.</p>
             </correction>
             <normalization>
-               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target=www.google.fr--/>.</p>
+               <p>Vous trouverez les règles de normalisation du corpus à l'adresse suivante: <ptr target="www.google.fr--"/>.</p>
             </normalization>
          </editorialDecl> 
          <appInfo> <!-- citation des outils utilisés -->
             <application ident="Kraken" version="4.1">
                <label>Kraken</label>
-               <ptr target=https://github.com/mittagessen/kraken/>
+               <ptr target="https://github.com/mittagessen/kraken"/>
             </application>
          </appInfo>
          <appInfo>
             <application ident="FoNDUE" version="0.1">
                <label>FoNDUE</label>
-               <ptr target=https://test2.fondue.unige.ch//>
+               <ptr target="https://test2.fondue.unige.ch/"/>
             </application>
          </appInfo>
       </encodingDesc>
       
-      <profileDesc>
-         <creation>
-            <date type="type" when="2025-06-10"/>
-         </creation>
          
+      <profileDesc>
          <textClass>
             <keywords scheme ="Nom_du_référentiel">
                <list>
@@ -169,10 +153,11 @@
          </textClass>
       </profileDesc>
       
+      <!--Suivi des modifications du fichier TEI-->
       <revisionDesc>
-         <change when="YYYY-MM-DD">
-            <persName ref="#code_personne_à_changer--"/>
-            <p>Ce qui a été changé</p>
+         <change when="2025-06-12">
+            <persName ref="#MP"/>
+            <p>Création du fichier TEI P5.</p>
          </change>
       </revisionDesc>
       

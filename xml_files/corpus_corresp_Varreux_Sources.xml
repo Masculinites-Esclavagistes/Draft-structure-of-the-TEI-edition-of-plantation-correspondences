@@ -12,7 +12,7 @@
          <titleStmt>
             <title>Corpus de la correspondance de la plantation Varreux, des Sources des héritières Fougeu à Saint-Domingue du projet MEGV</title>
             
-            <respStmt><!-- Responsabilités dans l'édition de ce dossier individuel : qui a fait quoi ?-->
+            <respStmt><!-- Responsabilités dans l'édition -->
                   <resp>Direction du projet MEGV</resp>
                   <persName xml:id="MH">
                      <forename>Marie</forename>
@@ -61,11 +61,13 @@
                </respStmt>
          </titleStmt>
          
-         <extent> <!-- Estimation du volume du dossier : nombre de fascimilés numériques contenus dans le dossier : n="" à remplir -->
+         <!-- Estimation du volume du dossier : nombre de fascimilés numériques contenus dans le dossier : n="" à remplir -->
+         <extent> 
             <measure unit="total_images" n="17001"/>
          </extent>
          
-         <publicationStmt> <!-- Définition du projet, institutions, financements, licence-->
+         <!-- Définition du projet, institutions, financements, licence-->
+         <publicationStmt> 
             <publisher>Projet MEGV</publisher>
             <authority>Université de Genève</authority>
             <address>
@@ -83,12 +85,13 @@
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="2025-06-12"/> <!-- Date à compléter -->
+            <date when="2025-06-12"/> 
          </publicationStmt>
          
+         <!-- Présentation fonds d'archive du document -->
          <sourceDesc>
             <msDesc>
-               <msIdentifier><!-- Identification de la source du document : quel fonds d'archives, quelle cote ? -->
+               <msIdentifier>
                   <country>France</country>
                   <settlement>Paris</settlement>
                   <institution>AN</institution>
@@ -108,6 +111,7 @@
          </sourceDesc>
       </fileDesc>
       
+      <!-- Informations sur le projet d'édition critique de MEGV : règles de transcription, d'encodage, outils utilisés-->
       <encodingDesc>
          <projectDesc>
             <p>L'édition de ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS. Il a été facilité par la signature d'une convention entre le projet MEGV et les ANOM en décembre 2024.</p>
@@ -133,6 +137,14 @@
             </application>
          </appInfo>
       </encodingDesc>
+      
+      <!--Suivi des modifications du fichier TEI-->
+      <revisionDesc>
+         <change when="2025-06-12">
+            <persName ref="#MP"/>
+            <p>Création du fichier TEI P5.</p>
+         </change>
+      </revisionDesc>
       
    </teiHeader>
    <!-- Liste des correspondances contenus dans le corpus de la plantation Varreux - des Sources du projet MEGV -->

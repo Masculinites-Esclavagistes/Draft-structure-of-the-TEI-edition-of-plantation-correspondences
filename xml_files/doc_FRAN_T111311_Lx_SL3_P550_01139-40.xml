@@ -7,7 +7,9 @@
       
       <fileDesc>
          <titleStmt>
+            <!-- Titre du document-->
             <title>Lettre de Jaune au marquis de la Rochefoucault à propos de Mr Provenchère emprisonné à Bordeaux</title>
+            
             <respStmt>
                <resp>Direction du projet MEGV</resp>
                <persName xml:id="MH">
@@ -57,24 +59,34 @@
             </respStmt>
          </titleStmt>
          
+         <!-- Nombre de facsimilés-->
          <extent>
-            <measure unit="total_images" n="2"/> <!-- à remplir nombre de facsimilés -->
+            <measure unit="total_images" n="2"/> 
          </extent>
          
-         <publicationStmt>
+         <!-- Définition du projet, institutions, financements, licence-->
+         <publicationStmt> 
             <publisher>Projet MEGV</publisher>
             <authority>Université de Genève</authority>
             <address>
                <addrLine>Uni Bastions, rue St-Ours</addrLine>
                <addrLine>CH-1211 Genève</addrLine>
+               <country>Suisse</country>
+            </address>
+            <authority>Fonds national suisse (FNS)</authority>
+            <address>
+               <addrLine>Wildhainweg 3</addrLine>
+               <addrLine>CH-3001 Berne</addrLine>
+               <country>Suisse</country>
             </address>
             <availability status="restricted" n="CC-BY-NC">
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="2025-06-12"/>
+            <date when="2025-06-12"/> 
          </publicationStmt>
          
+         <!-- Présentation fonds d'archive du document -->
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -84,23 +96,15 @@
                   <repository>Caran</repository>
                   <collection>T - Papiers privés</collection>
                   <idno type="shelfmark">T//1113/11--</idno>
-                  <idno type="piece">pièce 550</idno>
+                  <idno type="piece">550</idno>
                </msIdentifier>
                
-               
-               <history>
-                  <origin>
-                     <origDate>
-                        <date type="beginning" when="17--">----</date>
-                        <date type="end" when="17--">----</date>
-                     </origDate>
-                  </origin>
-               </history>
                
             </msDesc>
          </sourceDesc>
       </fileDesc>
       
+      <!-- Informations sur le projet d'édition critique de MEGV : règles de transcription, d'encodage, outils utilisés-->
       <encodingDesc>
          <projectDesc>
             <p>Ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
@@ -127,6 +131,7 @@
          </appInfo>
       </encodingDesc>
       
+      <!-- Identification de la lettre : auteur·rice, destinataires, date, lieux de rédaction et de réception-->
       <profileDesc>
          <correspDesc corresp="code_corresp">
             <correspAction type="sent">
@@ -147,7 +152,6 @@
          </correspDesc>
          
  
-         
          <textClass>
             <keywords scheme ="Nom_du_référentiel">
                <list>
@@ -158,6 +162,7 @@
          </textClass>
       </profileDesc>
       
+      <!--Suivi des modifications du fichier TEI-->
       <revisionDesc>
          <change when="2025-06-12">
             <persName ref="#MP"/>
@@ -169,6 +174,7 @@
    
   <text>
       <body>
+         <pb n="1" facs="FRAN_T111311_Lx_SL3_P550_01139.tif"/>
          <opener>
             <salute>
                <placeName ref="#place_bordeaux_1">Bordeaux</placeName><date when="1769-01-24">24^e Janvier 1769</date>
@@ -203,8 +209,8 @@
          <p><persName ref="#pers_rochefoucauld_1">M. Le M^is De la Rochefoucault Bayers ※</persName><lb/></p>
          
          <p>550<lb/></p>
-            
-            <p> <persName ref="#pers_choiseulpraslin_1">De Praslin</persName> &amp; un autre pour <persName ref="#pers_choiseul_1">M. Le Duc de Choÿseul</persName> Enfin<lb/>
+         <pb n="2" facs="FRAN_T111311_Lx_SL3_P550_01140.tif"/>
+            <p><persName ref="#pers_choiseulpraslin_1">De Praslin</persName> &amp; un autre pour <persName ref="#pers_choiseul_1">M. Le Duc de Choÿseul</persName> Enfin<lb/>
                <persName ref="#pers_rochefoucauld_1">Monsieur</persName> <persName ref="#pers_provenchere_1">M^r Provenchere</persName> se porte bien jl est joyeux<lb/>
                Et content, et je vous Reytere que sans pas une Reserve<lb/>
                tous mes pouvoirs sont Entierement a son service, Et que<lb/>

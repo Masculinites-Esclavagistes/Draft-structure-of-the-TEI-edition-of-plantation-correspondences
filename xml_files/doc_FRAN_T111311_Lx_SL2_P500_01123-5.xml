@@ -7,9 +7,10 @@
       
       <fileDesc>
          <titleStmt>
+            <!-- Titre du document-->
             <title>Lettre de Mosneron au <persName ref="pers_rochefoucauld_1">marquis de la Rochefoucauld</persName></title>
             
-            <respStmt>
+            <respStmt><!-- Responsabilités dans l'édition -->
                <resp>Direction du projet MEGV</resp>
                <persName xml:id="MH">
                   <forename>Marie</forename>
@@ -55,24 +56,35 @@
             </respStmt>
          </titleStmt>
          
+         <!-- Nombre de facsimilés-->
          <extent>
             <measure unit="total_images" n="3"/>
          </extent>
          
-         <publicationStmt>
+         <!-- Définition du projet, institutions, financements, licence-->
+         <publicationStmt> 
             <publisher>Projet MEGV</publisher>
             <authority>Université de Genève</authority>
             <address>
                <addrLine>Uni Bastions, rue St-Ours</addrLine>
                <addrLine>CH-1211 Genève</addrLine>
+               <country>Suisse</country>
+            </address>
+            <authority>Fonds national suisse (FNS)</authority>
+            <address>
+               <addrLine>Wildhainweg 3</addrLine>
+               <addrLine>CH-3001 Berne</addrLine>
+               <country>Suisse</country>
             </address>
             <availability status="restricted" n="CC-BY-NC">
                <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"/>
                <p>Creative Commons Attribution CC BY-NC 4.0</p>
             </availability>
-            <date when="2025-06-12"/>
+            <date when="2025-06-12"/> 
          </publicationStmt>
          
+         
+         <!-- Présentation fonds d'archive du document -->
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -90,6 +102,7 @@
          </sourceDesc>
       </fileDesc>
       
+      <!-- Informations sur le projet d'édition critique de MEGV : règles de transcription, d'encodage, outils utilisés-->
       <encodingDesc>
          <projectDesc>
             <p>Ce corpus numérique s'incrit dans le cadre du projet MEGV, dirigé par la Professeure Marie Houllemare (Université de Genève) et financé par le FNS.</p>
@@ -116,6 +129,7 @@
          </appInfo>
       </encodingDesc>
       
+      <!-- Identification de la lettre : auteur·rice, destinataires, date, lieux de rédaction et de réception-->
       <profileDesc>
          <correspDesc corresp="code_corresp">
             <correspAction type="sent">
@@ -146,6 +160,7 @@
          </textClass>
       </profileDesc>
       
+      <!--Suivi des modifications du fichier TEI-->
       <revisionDesc>
          <change when="2025-06-12">
             <persName ref="#MP"/>
