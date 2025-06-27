@@ -141,6 +141,10 @@
                   
                   <!-- VARIANTES DANS CORPUS -->
                   <persName type="variant" source="#source_corpus">M. Le M^is De la Rochefoucault Bayers</persName>
+                  <persName type="alias">
+                     <addName>le marquis</addName>
+                     <addName>le maréchal</addName>
+                  </persName>
                   
                   <!-- GENRE-->
                   <gender>M</gender>

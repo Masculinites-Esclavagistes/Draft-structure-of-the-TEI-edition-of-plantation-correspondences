@@ -99,8 +99,6 @@
                   <idno type="bundle">17</idno>
                </msIdentifier>
                
-               
-               
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -152,9 +150,6 @@
             </correspAction>-->
          </correspDesc>
          
-         <creation>
-            <date type="type" when="YYYY-MM-DD"/>
-         </creation>
          <textClass>
             <keywords scheme ="Nom_du_référentiel">
                <list>

@@ -220,10 +220,13 @@
          portez vous ainsi bien que moy et me Croyéz<lb/>
          avec Respect.<lb/></p>
          <closer>
-            <salute><persName ref="#pers_rochefoucauld_1">Monsieur</persName><lb/>
+            <salute>
+               <persName ref="#pers_rochefoucauld_1">Monsieur</persName><lb/>
             Votre tres humble et<lb/>
             et tres obeissent Serviteur<lb/>
-                Au <placeName ref="#place_culdesac_1">Cul de Sac</placeName> le <date when="1778-12-24"></date>24 X^bre 1778.<lb/></salute></closer>
+               Au <placeName ref="#place_culdesac_1">Cul de Sac</placeName> le <date when="1778-12-24"></date>24 X^bre 1778.<lb/>
+            </salute>
+         </closer>
             <signed><persName ref="#pers_robion_1">Robion</persName></signed></div>
          <div>
          <p>Les sucres sont aujourdhuy. Sans demande. Le Blanc<lb/>
